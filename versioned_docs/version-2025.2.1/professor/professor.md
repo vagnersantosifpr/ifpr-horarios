@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Corpo Docente por Área de Atuação
+# Corpo Docente
 
 ## Agronomia
 - [Diego Armando Amaro da Silva](diego_armando_amaro_da_silva)

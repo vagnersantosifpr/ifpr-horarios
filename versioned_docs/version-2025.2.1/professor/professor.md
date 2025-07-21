@@ -82,7 +82,7 @@ sidebar_position: 1
 - [Elenice Josefa Kolancko Setti](professor/elenice_josefa_kolancko_setti)
 - [Elizangela Mendes Pereira](professor/elizangela_mendes_pereira)
 - [Felipe Fraga de Oliveira](professor/felipe_fraga_de_oliveira)
-- [Jonathan Prass Souza](professor/jonathan_prass_souza)
+- [Jonatan Ismael Eisermann](professor/jonathan_prass_souza)
 - [Mauro Cesar de Souza Siena](professor/mauro_cesar_de_souza_siena)
 
 ## Mecânica

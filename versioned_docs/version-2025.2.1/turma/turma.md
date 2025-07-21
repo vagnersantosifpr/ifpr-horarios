@@ -11,6 +11,31 @@ sidebar_position: 1
 - [Ago 2025 - Grupo A](turma/ago2025_-_grupo_a)
 - [Ago 2025 - Grupo B](turma/ago2025_-_grupo_b)
 
+## Comércio - Técnico Integrado ao Ensino Médio
+- [Com 2023](turma/com2023)
+- [Com 2024](turma/com2024)
+- [Com 2025](turma/com2025)
+
+## Eletromecânica - Técnico Integrado ao Ensino Médio
+- [Ein 2022](turma/ein2022)
+- [Ein 2023](turma/ein2023)
+- [Ein 2024](turma/ein2024)
+- [Ein 2025](turma/ein2025)
+- [Ein 2025 - Grupo A](turma/ein2025_-_grupo_a)
+- [Ein 2025 - Grupo B](turma/ein2025_-_grupo_b)
+
+## Informática para Internet (Campus) - Técnico Integrado ao Ensino Médio
+- [Iiw 2023a](turma/iiw2023a)
+- [Iiw 2024a](turma/iiw2024a)
+- [Iiw 2025a](turma/iiw2025a)
+
+## Informática para Internet (CR Toledo) - Técnico Integrado ao Ensino Médio
+- [Iiw 2023b](turma/iiw2023b)
+- [Iiw 2024b](turma/iiw2024b)
+- [Iiw 2025b](turma/iiw2025b)
+- [Iiw 2025b - Grupo A](turma/iiw2025b_-_grupo_a)
+- [Iiw 2025b - Grupo B](turma/iiw2025b_-_grupo_b)
+
 ## Agropecuária - Técnico Subsequente
 - [Agr 2024](turma/agr2024)
 - [Agr 2025](turma/agr2025)
@@ -18,21 +43,6 @@ sidebar_position: 1
 ## Alimentos - Técnico Subsequente
 - [Tal 2024](turma/tal2024)
 - [Tal 2025](turma/tal2025)
-
-## Análise e Desenvolvimento de Sistemas - Graduação
-- [Tads Esp](turma/tads_esp)
-
-## Ciências Biológicas - Graduação
-- [Bio Especial 1](turma/bio_especial_1)
-- [Bio Especial 2](turma/bio_especial_2)
-
-## Comércio - Técnico Integrado ao Ensino Médio
-- [Com 2023](turma/com2023)
-- [Com 2024](turma/com2024)
-- [Com 2025](turma/com2025)
-
-## EGE - Especialização
-- [Ege 2024](turma/ege2024)
 
 ## Eletromecânica - Técnico Subsequente
 - [Elm 2024](turma/elm2024)
@@ -42,24 +52,19 @@ sidebar_position: 1
 - [Ele 2024](turma/ele2024)
 - [Ele 2025](turma/ele2025)
 
+## Análise e Desenvolvimento de Sistemas - Graduação
+- [Tads Esp](turma/tads_esp)
+
+## Ciências Biológicas - Graduação
+- [Bio Especial 1](turma/bio_especial_1)
+- [Bio Especial 2](turma/bio_especial_2)
+
 ## Gestão Comercial - Graduação 
 - [Tgc 2024](turma/tgc2024)
 - [Tgc 2025](turma/tgc2025)
 
-## Informática para Internet (Campus) - Técnico Integrado ao Ensino Médio
-- [Ein 2022](turma/ein2022)
-- [Ein 2023](turma/ein2023)
-- [Ein 2024](turma/ein2024)
-- [Ein 2025](turma/ein2025)
-- [Ein 2025 - Grupo A](turma/ein2025_-_grupo_a)
-- [Ein 2025 - Grupo B](turma/ein2025_-_grupo_b)
 
-## Informática para Internet (CR Toledo) - Técnico Integrado ao Ensino Médio
-- [Iiw 2023a](turma/iiw2023a)
-- [Iiw 2023b](turma/iiw2023b)
-- [Iiw 2024a](turma/iiw2024a)
-- [Iiw 2024b](turma/iiw2024b)
-- [Iiw 2025a](turma/iiw2025a)
-- [Iiw 2025b](turma/iiw2025b)
-- [Iiw 2025b - Grupo A](turma/iiw2025b_-_grupo_a)
-- [Iiw 2025b - Grupo B](turma/iiw2025b_-_grupo_b)
+## EGE - Especialização
+- [Ege 2024](turma/ege2024)
+
+

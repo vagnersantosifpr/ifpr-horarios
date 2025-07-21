@@ -5,9 +5,9 @@ sidebar_position: 1
 # Corpo Docente
 
 ## Agronomia
-- [Diego Armando Amaro da Silva](diego_armando_amaro_da_silva)
-- [Elias Franco](elias_franco)
-- [Fernanda da Silva Ferreira](fernanda_da_silva_ferreira)
+- [Diego Armando Amaro da Silva](./diego_armando_amaro_da_silva)
+- [Elias Franco](professor/elias_franco)
+- [Fernanda da Silva Ferreira](professor/fernanda_da_silva_ferreira)
 - [Octavio Henrique Viana](octavio_henrique_viana)
 
 ## Alimentos

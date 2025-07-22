@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Corpo Docente da versão do horário
+# Docentes da versão do horário
 
 ## Agronomia
 - [Diego Armando Amaro da Silva](professor/diego_armando_amaro_da_silva)

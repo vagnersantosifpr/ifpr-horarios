@@ -41,8 +41,6 @@ sidebar_position: 1
 | [2024.1.v1](/docs/2024.1.1/intro) | XX/XX/2024 | XX/XX/2024 |
 
 
-<!--
-
 
 
 ## Novidades

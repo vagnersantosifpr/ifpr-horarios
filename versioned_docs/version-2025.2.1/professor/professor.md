@@ -16,6 +16,9 @@ sidebar_position: 1
 ## Artes
 - [Josiane Paula Maltauro](professor/josiane_paula_maltauro)
 
+## Automação
+- [Novo Professor Automacao](professor/novo_professor_automacao)
+
 ## Biologia
 - [Eliana Pelicon Pereira Figueira](professor/eliana_pelicon_pereira_figueira)
 - [Josiane Hammes](professor/josiane_hammes)
@@ -32,7 +35,6 @@ sidebar_position: 1
 - [Danilo Hungaro Micheletti](professor/danilo_hungaro_micheletti)
 - [Jair Fajardo Junior](professor/jair_fajardo_junior)
 - [Juliano da Rocha Queiroz](professor/juliano_da_rocha_queiroz)
-- [Novo Professor Automacao](professor/novo_professor_automacao)
 - [Wylliam Salviano Gongora](professor/wylliam_salviano_gongora)
 
 ## Engenharia de Software

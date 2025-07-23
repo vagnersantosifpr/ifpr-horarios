@@ -24,6 +24,7 @@ sidebar_position: 1
 
 ## Ciência da Computação
 - [Joaquim José Honório de Lima](professor/joaquim_jose_honorio_de_lima)
+- [Rafael Luis Bartz](professor/rafael_luis_bartz)
 
 
 ## Educação Física
@@ -69,7 +70,6 @@ sidebar_position: 1
 - [Alvaro Jose de Almeida Araujo](professor/alvaro_jose_de_almeida_araujo)
 - [Douglas Barbosa Sousa](professor/douglas_barbosa_sousa)
 - [Humberto Fioravante Ferro](professor/humberto_fioravante_ferro)
-- [Rafael Luis Bartz](professor/rafael_luis_bartz)
 - [Samuel Stephan Milczuk](professor/samuel_stephan_milczuk)
 - [Sergio Ricardo Ferrazoli](professor/sergio_ricardo_ferrazoli)
 - [Vagner Simoes Santos](professor/vagner_simoes_santos)

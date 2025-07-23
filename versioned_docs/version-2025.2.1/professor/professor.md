@@ -25,6 +25,10 @@ sidebar_position: 1
 - [Karina Dias Espartosa](professor/karina_dias_espartosa)
 - [Leandro Luiz Borges](professor/leandro_luiz_borges) .
 
+## Ciência da Computação
+- [Rafael Luis Bartz](professor/rafael_luis_bartz)
+
+
 ## Educação Física
 - [Franciele Fernandes Baliero](professor/franciele_fernandes_baliero)
 - [Kleber Augusto Michalichem](professor/kleber_augusto_michalichem)
@@ -72,7 +76,6 @@ sidebar_position: 1
 - [Douglas Barbosa Sousa](professor/douglas_barbosa_sousa)
 - [Humberto Fioravante Ferro](professor/humberto_fioravante_ferro)
 - [Olavo Jose Luiz Junior](professor/olavo_jose_luiz_junior)
-- [Rafael Luis Bartz](professor/rafael_luis_bartz)
 - [Samuel Stephan Milczuk](professor/samuel_stephan_milczuk)
 - [Sergio Ricardo Ferrazoli](professor/sergio_ricardo_ferrazoli)
 - [Vagner Simoes Santos](professor/vagner_simoes_santos)

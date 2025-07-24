@@ -80,9 +80,6 @@ sidebar_position: 1
 - [Sergio Ricardo Ferrazoli](professor/sergio_ricardo_ferrazoli)
 - [Vagner Simoes Santos](professor/vagner_simoes_santos)
 
-## Letras e Português
-- [Pedro Leites Junior](professor/pedro_leites_junior)
-
 ## Matemática
 - [Elenice Josefa Kolancko Setti](professor/elenice_josefa_kolancko_setti)
 - [Elizangela Mendes Pereira](professor/elizangela_mendes_pereira)
@@ -104,6 +101,9 @@ sidebar_position: 1
 - [Celina de Oliveira Barbosa Gomes](professor/celina_de_oliveira_barbosa_gomes)
 - [Katia Cristiane Kobus Novaes](professor/katia_cristiane_kobus_novaes)
 - [Yohana Diel Saheli](professor/yohana_diel_saheli)
+
+## Português e Letras
+- [Pedro Leites Junior](professor/pedro_leites_junior)
 
 ## Química
 - [Antonio Cesar Godoy](professor/antonio_cesar_godoy)

@@ -68,7 +68,20 @@ sidebar_position: 1
 - [Ege 2024](turma/ege2024)
 
 
-## FIC Mulheres Mil (turma FAO2025-1)
+## FIC Mulheres Mil (Formação Inicial e Continuada)
 - [FAO2025-1](turma/fao2025-1)
 
+## Curso de Aperfeiçoamento em Educação das Relações Étnico-Raciais (ERER) - IFPR UAB (Universidade Aberta do Brasil)
+- [ERE2025](turma/erer2025)
 
+## Técnico em Logistica EAD (TLEAD) - IFPR (Campus Assis Chateaubriand)
+- [TLEAD2025](turma/eadtl2025)
+
+## Técnico em Serviços Públicos EAD (TSPEAD) - IFPR (Campus Assis Chateaubriand)
+- [TSPEAD2025](turma/eadsp2025)
+
+## Técnico em Segurança do Trabalho EAD (TSTEAD) - IFPR (Campus Assis Chateaubriand)
+- [TSTEAD2025](turma/eadst2025)
+
+## Técnico em Meio Ambiente EAD (TMAEAD) - IFPR (Campus Assis Chateaubriand)
+- [TMAEAD2025](turma/eadtma2025)

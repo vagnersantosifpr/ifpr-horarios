@@ -57,7 +57,7 @@ const config: Config = {
    favicon: 'img/favicon.gif',
 
   // Set the production url of your site here
-  url: 'https://sieassischateaubriand.github.io/',
+  url: 'https://coensassischateaubriand.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   
@@ -66,7 +66,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'sieassischateaubriand', // Usually your GitHub org/user name.
+  organizationName: 'coensassischateaubriand', // Usually your GitHub org/user name.
   projectName: 'ifpr-horarios', // Usually your repo name.
   trailingSlash: false,
 
@@ -177,7 +177,7 @@ const config: Config = {
           items: [
             {
               label: 'Campus Assis Chateaubriand',
-              href: 'https://assis.ifpr.edu.br',
+              href: 'https://ifpr.edu.br/assis-chateaubriand/',
             },
             // {
             //   label: 'Discord',
@@ -194,7 +194,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/sieassischateaubriand/ifpr-horarios/',
+              href: 'https://github.com/coensassischateaubriand/ifpr-horarios/',
             },
           ],
         },

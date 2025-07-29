@@ -31,7 +31,7 @@ function makeVersionNames() {
   ;[...versions].forEach((item, index) => {
     let name = renameVersion(item)
 
-    if (index === 0) name = name + ' Em validação (Atual)'
+    if (index === 0) name = name + ' (Atual)'
     names[item] = {
       label: name,
     }

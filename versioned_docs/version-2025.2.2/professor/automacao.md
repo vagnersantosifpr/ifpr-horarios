@@ -6,4 +6,4 @@ sidebar_position: 1
 
 ## Professores
 
-- [Novo Professor Automacao](novo_professor_automacao)
+- [Mario Eduardo de Barros Gomes Nunes da Silva](mario_eduardo_de_barros_gomes_nunes_da_silva)

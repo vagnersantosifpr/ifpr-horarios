@@ -8,11 +8,23 @@ sidebar_position: 1
   Seja bem-vindo ao novo sistema web para o quadro de horários do Instituto Federal do Paraná - Campus Assis Chateaubriand. 
 </p>
 
+## Mudanças na versão 2025.2.v2:
+<p>
+  1) Permuta entre as disciplinas Química III - 1085 e Sociologia e Extensão Rural - 1087, em AGO2023.
+  2) Permutas entre disciplinas para solucionar o conflito das disciplinas do professor Andrey que é o PSS de Letras (Andrey Felipe Martins), solucionando o conflito entre as disciplinas:
+    2.1) Língua Portuguesa e Literatura III - 1240 (IIW2023A) x Língua Portuguesa e Literatura I - 2515 (AGO2025);
+    2.2) Lingua Estrangeira Moderna 1 - Inglês - 179 (EIN2024) x Língua Portuguesa e Literatura III - 1081 (AGO2023).
+  
+</p>
+
+
+
 ## Histórico
 
 | Versão    |   Início   |     Fim    |
 |-----------|:----------:|:----------:|
-| 2025.2.v1 | 29/07/2025 | Atual | 
+| 2025.2.v2 | 04/08/2025 | Atual | 
+| [2025.2.v1](/docs/2025.2.1/intro) | 29/07/2025 | 03/08/2025 |
 | [2025.1.v8](/docs/2025.1.8/intro) | 25/05/2025 | 28/07/2025 |
 | [2025.1.v7](/docs/2025.1.7/intro) | 12/05/2025 | 24/05/2025 |
 | [2025.1.v6](/docs/2025.1.6/intro) | 20/04/2025 | 11/05/2025 |

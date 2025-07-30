@@ -100,10 +100,8 @@ sidebar_position: 1
 ## Português e Inglês
 - [Celina de Oliveira Barbosa Gomes](professor/celina_de_oliveira_barbosa_gomes)
 - [Katia Cristiane Kobus Novaes](professor/katia_cristiane_kobus_novaes)
-- [Yohana Diel Saheli](professor/yohana_diel_saheli)
+- [Andrey Felipe Martins](professor/andrey_felipe_martins)
 
-## Português e Letras
-- [Pedro Leites Junior](professor/pedro_leites_junior)
 
 ## Química
 - [Antonio Cesar Godoy](professor/antonio_cesar_godoy)

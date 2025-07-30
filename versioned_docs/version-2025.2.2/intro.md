@@ -10,13 +10,13 @@ sidebar_position: 1
 
 ## Mudanças na versão 2025.2.v2:
 <p>
-  1) Permuta entre as disciplinas Química III - 1085 e Sociologia e Extensão Rural - 1087, em AGO2023.<br>
-  2) Transferência de disciplinas realizada e conflito entre as disciplinas do professor Andrey Felipe Martins, que é o PSS de Letras:<br>
-    2.1) Língua Portuguesa e Literatura III - 1240 (IIW2023A) x Língua Portuguesa e Literatura I - 2515 (AGO2025);<br>
-    2.2) Lingua Estrangeira Moderna 1 - Inglês - 179 (EIN2024) x Língua Portuguesa e Literatura III - 1081 (AGO2023).<br>
-  3) Solução do conflito das disciplinas do professor Andrey que é o PSS de Letras (Andrey Felipe Martins):<br>
-    2.1) Permuta entre Língua Portuguesa e Literatura I - 2515 (AGO2025) e Agroecologia e Desenvolvimento Rural Sustentável - 2468 (AGO2025);<br>
-    2.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e Orientação de Estágio Supervisionado - 1097 (AGO2023).<br>
+  1) Permuta entre as disciplinas Química III - 1085 e Sociologia e Extensão Rural - 1087, em AGO2023.
+  2) Transferência de disciplinas realizada e conflito entre as disciplinas do professor Andrey Felipe Martins, que é o PSS de Letras:
+    2.1) Língua Portuguesa e Literatura III - 1240 (IIW2023A) x Língua Portuguesa e Literatura I - 2515 (AGO2025);
+    2.2) Lingua Estrangeira Moderna 1 - Inglês - 179 (EIN2024) x Língua Portuguesa e Literatura III - 1081 (AGO2023).
+  3) Solução do conflito das disciplinas do professor Andrey que é o PSS de Letras (Andrey Felipe Martins):
+    2.1) Permuta entre Língua Portuguesa e Literatura I - 2515 (AGO2025) e Agroecologia e Desenvolvimento Rural Sustentável - 2468 (AGO2025);
+    2.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e Orientação de Estágio Supervisionado - 1097 (AGO2023).
   
 </p>
 

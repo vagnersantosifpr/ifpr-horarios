@@ -17,7 +17,7 @@ sidebar_position: 1
     3.2) Lingua Estrangeira Moderna 1 - Inglês - 179 (EIN2024) x Língua Portuguesa e Literatura III - 1081 (AGO2023).
   4) Solução do conflito das disciplinas do professor Andrey que é o PSS de Letras (Andrey Felipe Martins):
     4.1) Permuta entre Língua Portuguesa e Literatura I - 2515 (AGO2025) e Agroecologia e Desenvolvimento Rural Sustentável - 2468 (AGO2025);
-    4.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e Orientação de Estágio Supervisionado - 1097 (AGO2023).
+    4.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e XXXXXXXXXXXXXXXXXXXXXXX (XXX9999).
   
 </p>
 

@@ -11,50 +11,67 @@ sidebar_position: 1
 ## Mudanças na versão 2025.2.v2:
 <p>
   1) Permuta entre as disciplinas Química III - 1085 e Sociologia e Extensão Rural - 1087, em AGO2023.
+  </p>
+ <p>
   2) Transferência de 2 horas/aula da disciplina Língua Portuguesa e Literatura II - 2522 para Profa Kátia Cristiane Kobus Novaes.
+  </p>
+  <p>
   3) Transferência de disciplinas realizada e conflito entre as disciplinas do professor Andrey Felipe Martins, que é o PSS de Letras:
+  </p>
+  <p>
     3.1) Língua Portuguesa e Literatura III - 1240 (IIW2023A) x Língua Portuguesa e Literatura I - 2515 (AGO2025);
+    </p>
+    <p>
     3.2) Lingua Estrangeira Moderna 1 - Inglês - 179 (EIN2024) x Língua Portuguesa e Literatura III - 1081 (AGO2023).
+    </p>
+    <p>
   4) Solução do conflito das disciplinas do professor Andrey que é o PSS de Letras (Andrey Felipe Martins):
+  </p>
+  <p>
     4.1) Permuta entre Língua Portuguesa e Literatura I - 2515 (AGO2025) e Agroecologia e Desenvolvimento Rural Sustentável - 2468 (AGO2025);
-    4.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e XXXXXXXXXXXXXXXXXXXXXXX (XXX9999).
-  
+    </p>
+    <p>
+   4.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e Culturas II - 1091 (AGO2023).
 </p>
+  <p>
+   4.3) Permuta entre Artes 1 - 458 (AGO2025) e Lingua Estrangeira - Inglês - 456 (AGO2025).
+</p>
+
 
 
 
 ## Histórico
 
-| Versão    |   Início   |     Fim    |
-|-----------|:----------:|:----------:|
-| 2025.2.v2 | 04/08/2025 | Atual | 
-| [2025.2.v1](/docs/2025.2.1/intro) | 29/07/2025 | 03/08/2025 |
-| [2025.1.v8](/docs/2025.1.8/intro) | 25/05/2025 | 28/07/2025 |
-| [2025.1.v7](/docs/2025.1.7/intro) | 12/05/2025 | 24/05/2025 |
-| [2025.1.v6](/docs/2025.1.6/intro) | 20/04/2025 | 11/05/2025 |
-| [2025.1.v5](/docs/2025.1.5/intro) | 16/03/2025 | 19/04/2025 |
-| [2025.1.v4](/docs/2025.1.4/intro) | 09/03/2025 | 15/03/2025 |
-| [2025.1.v3](/docs/2025.1.3/intro) | 23/02/2025 | 08/03/2025 |
-| [2025.1.v2](/docs/2025.1.2/intro) | 16/02/2025 | 22/02/2025 |
-| [2025.1.v1](/docs/2025.1.1/intro) | 09/02/2025 | 15/02/2025 |
-| [2024.2.v7](/docs/2024.2.7/intro) | 17/11/2024 | 31/12/2024 |
-| [2024.2.v6](/docs/2024.2.6/intro) | 10/11/2024 | 16/11/2024 |
-| [2024.2.v5](/docs/2024.2.5/intro) | 20/10/2024 | 09/11/2024 |
-| [2024.2.v4](/docs/2024.2.4/intro) | 29/09/2024 | 19/10/2024 |
-| [2024.2.v3](/docs/2024.2.3/intro) | 15/09/2024 | 28/09/2024 |
-| [2024.2.v2](/docs/2024.2.2/intro) | 08/09/2024 | 14/09/2024 |
-| [2024.2.v1](/docs/2024.2.1/intro) | 25/08/2024 | 07/09/2024 |
+| Versão                              |   Início   |    Fim     |
+| ----------------------------------- | :--------: | :--------: |
+| 2025.2.v2                           | 04/08/2025 |   Atual    |
+| [2025.2.v1](/docs/2025.2.1/intro)   | 29/07/2025 | 03/08/2025 |
+| [2025.1.v8](/docs/2025.1.8/intro)   | 25/05/2025 | 28/07/2025 |
+| [2025.1.v7](/docs/2025.1.7/intro)   | 12/05/2025 | 24/05/2025 |
+| [2025.1.v6](/docs/2025.1.6/intro)   | 20/04/2025 | 11/05/2025 |
+| [2025.1.v5](/docs/2025.1.5/intro)   | 16/03/2025 | 19/04/2025 |
+| [2025.1.v4](/docs/2025.1.4/intro)   | 09/03/2025 | 15/03/2025 |
+| [2025.1.v3](/docs/2025.1.3/intro)   | 23/02/2025 | 08/03/2025 |
+| [2025.1.v2](/docs/2025.1.2/intro)   | 16/02/2025 | 22/02/2025 |
+| [2025.1.v1](/docs/2025.1.1/intro)   | 09/02/2025 | 15/02/2025 |
+| [2024.2.v7](/docs/2024.2.7/intro)   | 17/11/2024 | 31/12/2024 |
+| [2024.2.v6](/docs/2024.2.6/intro)   | 10/11/2024 | 16/11/2024 |
+| [2024.2.v5](/docs/2024.2.5/intro)   | 20/10/2024 | 09/11/2024 |
+| [2024.2.v4](/docs/2024.2.4/intro)   | 29/09/2024 | 19/10/2024 |
+| [2024.2.v3](/docs/2024.2.3/intro)   | 15/09/2024 | 28/09/2024 |
+| [2024.2.v2](/docs/2024.2.2/intro)   | 08/09/2024 | 14/09/2024 |
+| [2024.2.v1](/docs/2024.2.1/intro)   | 25/08/2024 | 07/09/2024 |
 | [2024.1.v11](/docs/2024.1.11/intro) | 28/07/2024 | 24/08/2024 |
 | [2024.1.v10](/docs/2024.1.10/intro) | 21/07/2024 | 27/07/2024 |
-| [2024.1.v9](/docs/2024.1.9/intro) | 15/07/2024 | 20/07/2024 |
-| [2024.1.v8](/docs/2024.1.8/intro) | 07/07/2024 | 14/07/2024 |
-| [2024.1.v7](/docs/2024.1.7/intro) | 30/06/2024 | 06/07/2024 |
-| [2024.1.v6](/docs/2024.1.6/intro) | 24/03/2024 | 29/06/2024 |
-| [2024.1.v5](/docs/2024.1.5/intro) | 18/03/2024 | 23/03/2024 |
-| [2024.1.v4](/docs/2024.1.4/intro) | XX/XX/2024 | XX/XX/2024 |
-| [2024.1.v3](/docs/2024.1.3/intro) | XX/XX/2024 | XX/XX/2024 |
-| [2024.1.v2](/docs/2024.1.2/intro) | XX/XX/2024 | XX/XX/2024 |
-| [2024.1.v1](/docs/2024.1.1/intro) | XX/XX/2024 | XX/XX/2024 |
+| [2024.1.v9](/docs/2024.1.9/intro)   | 15/07/2024 | 20/07/2024 |
+| [2024.1.v8](/docs/2024.1.8/intro)   | 07/07/2024 | 14/07/2024 |
+| [2024.1.v7](/docs/2024.1.7/intro)   | 30/06/2024 | 06/07/2024 |
+| [2024.1.v6](/docs/2024.1.6/intro)   | 24/03/2024 | 29/06/2024 |
+| [2024.1.v5](/docs/2024.1.5/intro)   | 18/03/2024 | 23/03/2024 |
+| [2024.1.v4](/docs/2024.1.4/intro)   | XX/XX/2024 | XX/XX/2024 |
+| [2024.1.v3](/docs/2024.1.3/intro)   | XX/XX/2024 | XX/XX/2024 |
+| [2024.1.v2](/docs/2024.1.2/intro)   | XX/XX/2024 | XX/XX/2024 |
+| [2024.1.v1](/docs/2024.1.1/intro)   | XX/XX/2024 | XX/XX/2024 |
 
 
 

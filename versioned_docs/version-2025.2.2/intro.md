@@ -9,33 +9,50 @@ sidebar_position: 1
 </p>
 
 ## Mudanças na versão 2025.2.v2:
-<p>
-  1) Permuta entre as disciplinas Química III - 1085 e Sociologia e Extensão Rural - 1087, em AGO2023.
-  </p>
- <p>
-  2) Transferência de 2 horas/aula da disciplina Língua Portuguesa e Literatura II - 2522 para Profa Kátia Cristiane Kobus Novaes.
-  </p>
-  <p>
-  3) Transferência de disciplinas realizada e conflito entre as disciplinas do professor Andrey Felipe Martins, que é o PSS de Letras:
-  </p>
-  <p>
-    3.1) Língua Portuguesa e Literatura III - 1240 (IIW2023A) x Língua Portuguesa e Literatura I - 2515 (AGO2025);
-    </p>
-    <p>
-    3.2) Lingua Estrangeira Moderna 1 - Inglês - 179 (EIN2024) x Língua Portuguesa e Literatura III - 1081 (AGO2023).
-    </p>
-    <p>
-  4) Solução do conflito das disciplinas do professor Andrey que é o PSS de Letras (Andrey Felipe Martins):
-  </p>
-  <p>
-    4.1) Permuta entre Língua Portuguesa e Literatura I - 2515 (AGO2025) e Agroecologia e Desenvolvimento Rural Sustentável - 2468 (AGO2025);
-    </p>
-    <p>
-   4.2) Permuta entre Língua Portuguesa e Literatura III - 1081 (AGO2023) e Culturas II - 1091 (AGO2023).
-</p>
-  <p>
-   4.3) Permuta entre Artes 1 - 458 (AGO2025) e Lingua Estrangeira - Inglês - 456 (AGO2025).
-</p>
+Esta versão, com vigência a partir de **01/08/2025**, foi implementada para atender a demandas pedagógicas e institucionais. As alterações são as seguintes:
+
+#### Turma AGO2025
+*   **Permuta de horários:**
+    *   **Agricultura Geral - 466:** Novo horário na Sexta-Feira (09:25 - 10:15).
+    *   **Sociologia I - 465:** Novo horário na Sexta-Feira (11:05 - 11:55).
+
+#### Turma IIW2025A
+*   **Lógica de programação - 1075:** Novo horário na Sexta-Feira (11:05 - 11:55).
+*   **Sociologia I - 1071:** Novo horário na Sexta-Feira (09:25 - 10:15).
+*   **Permuta de horários:**
+    *   **Língua Portuguesa e Literatura I - 1069:** Novos horários na Terça-Feira (09:25 - 10:15 e 10:15 - 11:05).
+    *   **Linguagens de apresentação e estruturação de conteúdos - 1074:** Novos horários na Quarta-Feira (10:15 - 11:05 e 11:05 - 11:55).
+
+#### Turma IIW2023A
+*   **Prototipação de Interfaces e Interação Humano-Computador - 1251:** Novos horários na Terça-Feira (09:25 - 10:15 e 10:15 - 11:05).
+*   **Filosofia III - 1245:** Novo horário na Quarta-Feira (10:15 - 11:05).
+*   **Sociologia II - 1246:** Novo horário na Quarta-Feira (11:05 - 11:55).
+
+#### Turma AGO2023
+*   **Permuta de horários:**
+    *   **História II - 1089:** Novo horário na Segunda-Feira (13:10 - 14:00).
+    *   **Horticultura - 1090:** Novo horário na Segunda-Feira (15:05 - 15:55).
+*   **Filosofia III - 1088:** Após um ajuste temporário, a disciplina retornou ao seu horário original na Terça-Feira (13:10 - 14:00), não havendo mudança efetiva nesta versão.
+*   
+
+- **Permuta na turma AGO2023:**
+  - Troca de horários realizada entre as disciplinas *Química III - 1085* e *Sociologia e Extensão Rural - 1087*.
+
+- **Ajuste de Carga Horária:**
+  - Transferência de 2 horas/aula da disciplina *Língua Portuguesa e Literatura II - 2522* para a professora **Kátia Cristiane Kobus Novaes**.
+
+- **Identificação de Conflito de Horário (Prof. Andrey Felipe Martins):**
+  - Após uma movimentação de disciplinas, foi identificado um conflito de horários para o professor nos seguintes encontros:
+    * *Língua Portuguesa e Literatura III - 1240* (IIW2023A) vs. *Língua Portuguesa e Literatura I - 2515* (AGO2025).
+    * *Língua Estrangeira Moderna I - Inglês - 179* (EIN2024) vs. *Língua Portuguesa e Literatura III - 1081* (AGO2023).
+
+- **Solução do Conflito (Prof. Andrey Felipe Martins):**
+  - Para resolver a sobreposição, foram efetuadas as seguintes permutas:
+    * **Turma AGO2025:** Permuta entre *Língua Portuguesa e Literatura I - 2515* e *Agroecologia e Desenvolvimento Rural Sustentável - 2468*.
+    * **Turma AGO2023:** Permuta entre *Língua Portuguesa e Literatura III - 1081* e *Culturas II - 1091*.
+    * **Turma AGO2025:** Permuta entre *Artes I - 458* e *Língua Estrangeira - Inglês - 456*.
+
+
 
 
 

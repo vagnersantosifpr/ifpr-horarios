@@ -17,10 +17,10 @@ sidebar_position: 2
 ## Bloco 2
 - [Educação Física - Sala 1 B2](sala/educacao_fisica_sala_1_b2)
 - [Laboratório de Automação e Robótica Industrial B2](sala/laboratorio_de_automacao_e_robotica_industrial_b2)
-- [Laboratório de Desenho Técnico - Sala 5-2 B2](sala/laboratorio_de_desenho_tecnico_sala_5-2_b2)
 - [Laboratório de Informática C](sala/laboratorio_de_informatica_c)
 - [Sala 1](sala/sala_1)
 - [Sala 2-2](sala/sala_2-2)
+- [Sala 5-2](sala/sala_5-2)
 - [Sala 6-2](sala/sala_6-2)
 - [Sala 7-2](sala/sala_7-2)
 - [Sala 8-2](sala/sala_8-2)

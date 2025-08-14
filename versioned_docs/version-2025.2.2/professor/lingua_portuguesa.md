@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Letras e Português
+# Português e Letras
 
 ## Professores
 

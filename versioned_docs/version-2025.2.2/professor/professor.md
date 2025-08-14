@@ -39,7 +39,7 @@ sidebar_position: 1
 - [Danilo Hungaro Micheletti - danilo.micheletti@ifpr.edu.br](professor/danilo_hungaro_micheletti)
 - [Jair Fajardo Junior - jair.junior@ifpr.edu.br](professor/jair_fajardo_junior)
 - [Juliano da Rocha Queiroz - juliano.queiroz@ifpr.edu.br](professor/juliano_da_rocha_queiroz)
-- [Wylliam Salviano Gongora](professor/wylliam_salviano_gongora)
+- [Wylliam Salviano Gongora - wylliam.gongora@ifpr.edu.br](professor/wylliam_salviano_gongora)
 
 ## Engenharia de Software
 - [Caroline Domingues Porto do Nascimento Barbieri - caroline.barbieri@ifpr.edu.br](professor/caroline_domingues_porto_do_nascimento_barbieri)
@@ -61,7 +61,7 @@ sidebar_position: 1
 
 ## Gestão e Negócios
 - [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
-- [Keitilanger Grisa Hahn](professor/keitilanger_grisa_hahn)
+- [Keitilanger Grisa Hahn - keitilanger.hahn@ifpr.edu.br](professor/keitilanger_grisa_hahn)
 - [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)
 - [Pss Gestao](professor/pss_gestao)
 

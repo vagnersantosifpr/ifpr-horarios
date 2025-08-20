@@ -8,3 +8,4 @@ sidebar_position: 1
 ## Professores
 
 - [Josiane Paula Maltauro](josiane_paula_maltauro)
+- [Simone de Miranda](simone_de_miranda)

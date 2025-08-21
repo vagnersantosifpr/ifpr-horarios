@@ -61,7 +61,7 @@ sidebar_position: 1
 
 ## Gestão e Negócios
 - [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
-- [Keitilanger Grisa Hahn](professor/keitilanger_grisa_hahn)
+- [Leocadia Candido da Silva](professor/leocadia_candido_da_silva)
 - [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)
 - [Pss Gestao](professor/pss_gestao)
 

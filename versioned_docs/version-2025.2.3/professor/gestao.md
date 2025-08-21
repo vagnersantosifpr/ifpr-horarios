@@ -8,6 +8,6 @@ sidebar_position: 1
 ## Professores
 
 - [Haroldo Yutaka Misunaga](haroldo_yutaka_misunaga)
-- [Keitilanger Grisa Hahn](keitilanger_grisa_hahn)
+- [Leocadia Candido da Silva](leocadia_candido_da_silva)
 - [Lechan Colares Santos](lechan_colares_santos)
 - [Pss Gestao](pss_gestao)

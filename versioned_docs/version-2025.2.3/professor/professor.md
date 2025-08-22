@@ -24,7 +24,7 @@ sidebar_position: 1
 - [Simone de Miranda](professor/simone_de_miranda)
 
 ## Automação
-- [Mario Eduardo de Barros Gomes Nunes da Silva - mario.silva@ifpr.edu.br](professor/mario_eduardo_de_barros_gomes_nunes_da_silva)
+- [Mario Eduardo de Barros Gomes Nunes da Silva - mario.silva@ifpr.edu.br](professor/mario_eduardo_de_barros_gomes_e_nunes_da_silva)
 
 ## Biologia
 - [Eliana Pelicon Pereira Figueira - eliana.figueira@ifpr.edu.br](professor/eliana_pelicon_pereira_figueira)

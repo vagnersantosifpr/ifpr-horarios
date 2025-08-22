@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # Docentes da versão do horário
 
+## Administração
+- [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
+- [Leocadia Candido da Silva](professor/leocadia_candido_da_silva)
+- [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)
+- [Pss Gestao](professor/pss_gestao)
+
 ## Agronomia
 - [Diego Armando Amaro da Silva - diego.silva@ifpr.edu.br](professor/diego_armando_amaro_da_silva)
 - [Elias Franco - elias.franco@ifpr.edu.br](professor/elias_franco)
@@ -60,11 +66,6 @@ sidebar_position: 1
 - [Jhones Donizetti Mendes - jhones.mendes@ifpr.edu.br](professor/jhones_donizetti_mendes)
 - [Renato Lada Guerreiro - renato.guerreiro@ifpr.edu.br](professor/renato_lada_guerreiro)
 
-## Gestão e Negócios
-- [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
-- [Leocadia Candido da Silva](professor/leocadia_candido_da_silva)
-- [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)
-- [Pss Gestao](professor/pss_gestao)
 
 ## História
 - [Andre Alexandre Valentini - andre.valentini@ifpr.edu.br](professor/andre_alexandre_valentini)

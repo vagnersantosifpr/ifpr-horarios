@@ -9,19 +9,34 @@ sidebar_position: 1
 </p>
 
 
-# Changelog: Horários IFPR Assis Chateaubriand - Versão 2025.2.3 (01/09/2025)
+### Changelog: Horários IFPR Assis Chateaubriand - Versão 2025.2.3 (24/08/2025)
 
-Este documento detalha as alterações nos horários das aulas entre a versão `2025.2.2` e a `2025.2.3`, publicada para o segundo semestre de 2025. As modificações visam otimizar a alocação de salas, ajustar a carga horária de professores e formalizar a entrada de novos docentes.
+Este documento detalha as alterações nos horários das aulas entre a versão 2025.2.2 e a 2025.2.3, publicada para o segundo semestre de 2025. As modificações visam otimizar a alocação de salas, ajustar a carga horária de professores e formalizar a entrada de novos docentes.
 
+#### Novidades e Alterações
 
+*   **Entrada da Nova Docente de Arte:**
+    *   A professora **Simone Miranda** iniciou suas atividades no campus em 15/08/2025.
+    *   As aulas de Arte foram redistribuídas entre a professora Simone e a professora Josi.
 
+*   **Ajustes e Permutas nos Horários:**
+    *   **Técnico em Eletromecânica (ELM2024):** Houve uma inversão nos horários de terça-feira.
+        *   **Elementos de Máquinas (Prof. Darlan Dapieve):** Passa para o horário das 19h00 às 20h40.
+        *   **Manutenção Industrial (Prof. Mario):** Passa para o horário das 21h00 às 22h40.
+    *   **Técnico em Agropecuária (Integrado):** Realizada alteração nos horários de segunda-feira à tarde para otimização das aulas práticas.
+        *   **História II:** A aula foi movida das 15h05 - 15h55 para iniciar às 13h10.
+        *   **Horticultura:** As aulas terão início às 14h00.
+    *   **Tecnologia em Gestão Comercial:** A professora **Keyla Portela** realizou ajustes na alocação de suas disciplinas.
+    *   **Técnico em Informática para Internet (IIW2025B - CR Toledo):** Permuta realizada devido a restrições de uso da quadra de esportes.
+        *   Houve uma inversão nos horários das aulas de **Educação Física (Prof. Kleber Michalichem)** e **LAEC (Prof. Humberto Fioravante Ferro)**.
+        
 
 ## Histórico
 
 | Versão                              |   Início   |    Fim     |
 | ----------------------------------- | :--------: | :--------: |
-| 2025.2.v3                           | 01/09/2025 |   Atual    |
-| [2025.2.v2](/docs/2025.2.2/intro)   | 04/08/2025 | 31/08/2025 |
+| 2025.2.v3                           | 25/08/2025 |   Atual    |
+| [2025.2.v2](/docs/2025.2.2/intro)   | 04/08/2025 | 24/08/2025 |
 | [2025.2.v1](/docs/2025.2.1/intro)   | 29/07/2025 | 03/08/2025 |
 | [2025.1.v8](/docs/2025.1.8/intro)   | 25/05/2025 | 28/07/2025 |
 | [2025.1.v7](/docs/2025.1.7/intro)   | 12/05/2025 | 24/05/2025 |

@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Bloco TR Toledo - Biopark
+# Bloco CR Toledo - Biopark
 

@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Tecnologia em Gestão Comercial
+# TGC - Tecnologia em Gestão Comercial
 

@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Especialização em Gestão Escolar - Toledo
+# EGE - Especialização em Gestão Escolar - Toledo
 

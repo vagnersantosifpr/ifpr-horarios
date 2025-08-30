@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Eletromecânica - Integrado
+# EIN - Eletromecânica
 

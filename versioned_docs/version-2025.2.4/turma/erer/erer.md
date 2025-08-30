@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Especialização em Relações Étnico Raciais
+# ERER - Especialização em Relações Étnico Raciais
 

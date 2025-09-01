@@ -67,9 +67,6 @@ sidebar_position: 1
 ## EGE - Especialização
 - [Ege 2024](turma/ege2024)
 
-## FPE - Lingua Portuguesa para Estrangeiros
-- [FPE 2025](turma/fpe2025)
-
 
 ## FIC Mulheres Mil (Formação Inicial e Continuada)
 - [FAO2025-1](turma/fao2025-1)

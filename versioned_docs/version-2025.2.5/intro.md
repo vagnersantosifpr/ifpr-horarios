@@ -9,9 +9,9 @@ sidebar_position: 1
 </p>
 
 
-### Changelog: Horários IFPR Assis Chateaubriand - Versão 2025.2.4 (01/09/2025)
+### Changelog: Horários IFPR Assis Chateaubriand - Versão 2025.2.5 (01/10/2025)
 
-Este documento detalha as alterações nos horários das aulas entre a versão 2025.2.3 e a 2025.2.4, publicada para o segundo semestre de 2025. As modificações visam otimizar a alocação de salas, ajustar a carga horária de professores e formalizar a entrada de novos docentes.
+Este documento detalha as alterações nos horários das aulas entre a versão 2025.2.4 e a 2025.2.5, publicada para o segundo semestre de 2025. As modificações visam otimizar a alocação de salas, ajustar a carga horária de professores e formalizar a entrada de novos docentes.
 
 #### Novidades e Alterações
 
@@ -21,7 +21,8 @@ Este documento detalha as alterações nos horários das aulas entre a versão 2
 
 | Versão                              |   Início   |    Fim     |
 | ----------------------------------- | :--------: | :--------: |
-| 2025.2.v4                           | 01/09/2025 |   Atual    |
+| 2025.2.v5                           | 01/10/2025 |   Atual    |
+| [2025.2.v4](/docs/2025.2.4/intro)   | 01/09/2025 | 30/09/2025 |
 | [2025.2.v3](/docs/2025.2.3/intro)   | 25/08/2025 | 31/08/2025 |
 | [2025.2.v2](/docs/2025.2.2/intro)   | 04/08/2025 | 24/08/2025 |
 | [2025.2.v1](/docs/2025.2.1/intro)   | 29/07/2025 | 03/08/2025 |

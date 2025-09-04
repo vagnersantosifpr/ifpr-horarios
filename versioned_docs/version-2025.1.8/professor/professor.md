@@ -56,10 +56,13 @@ sidebar_position: 1
 - [Jhones Donizetti Mendes](professor/jhones_donizetti_mendes)
 - [Renato Lada Guerreiro](professor/renato_lada_guerreiro)
 
-## Gestão e Negócios
+## Administração
 - [Haroldo Yutaka Misunaga](professor/haroldo_yutaka_misunaga)
 - [Keitilanger Grisa Hahn](professor/keitilanger_grisa_hahn)
 - [Lechan Colares Santos](professor/lechan_colares_santos)
+
+## Gestão
+- [Alexandre José Schumacher](professor/alexandre_jose_schumacher)
 
 ## História
 - [Andre Alexandre Valentini](professor/andre_alexandre_valentini)
@@ -74,7 +77,7 @@ sidebar_position: 1
 - [Sergio Ricardo Ferrazoli](professor/sergio_ricardo_ferrazoli)
 - [Vagner Simoes Santos](professor/vagner_simoes_santos)
 
-## Letras e Português
+## Português e Português
 - [Pedro Leites Junior](professor/pedro_leites_junior)
 
 ## Matemática
@@ -105,7 +108,6 @@ sidebar_position: 1
 - [Sabrina Kerkhoff](professor/sabrina_kerkhoff)
 
 ## Secretariado
-- [Alexandre José Schumacher](professor/alexandre_jose_schumacher)
 - [Keyla Christina Almeida Portela](professor/keyla_christina_almeida_portela)
 
 ## Sociologia

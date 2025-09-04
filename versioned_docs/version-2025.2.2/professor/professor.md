@@ -59,7 +59,7 @@ sidebar_position: 1
 - [Jhones Donizetti Mendes - jhones.mendes@ifpr.edu.br](professor/jhones_donizetti_mendes)
 - [Renato Lada Guerreiro - renato.guerreiro@ifpr.edu.br](professor/renato_lada_guerreiro)
 
-## Gestão e Negócios
+## Administração
 - [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
 - [Keitilanger Grisa Hahn - keitilanger.hahn@ifpr.edu.br](professor/keitilanger_grisa_hahn)
 - [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)

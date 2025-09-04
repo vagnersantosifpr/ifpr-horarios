@@ -59,7 +59,7 @@ sidebar_position: 1
 - [Jhones Donizetti Mendes](professor/jhones_donizetti_mendes)
 - [Renato Lada Guerreiro](professor/renato_lada_guerreiro)
 
-## Gestão e Negócios
+## Administração
 - [Haroldo Yutaka Misunaga](professor/haroldo_yutaka_misunaga)
 - [Keitilanger Grisa Hahn](professor/keitilanger_grisa_hahn)
 - [Lechan Colares Santos](professor/lechan_colares_santos)

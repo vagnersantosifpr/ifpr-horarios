@@ -10,4 +10,4 @@ sidebar_position: 1
 - [Haroldo Yutaka Misunaga](haroldo_yutaka_misunaga)
 - [Keitilanger Grisa Hahn](keitilanger_grisa_hahn)
 - [Lechan Colares Santos](lechan_colares_santos)
-- [Pss Gestao](pss_gestao)
+- [Daiane Cristina da Silva](pss_gestao)

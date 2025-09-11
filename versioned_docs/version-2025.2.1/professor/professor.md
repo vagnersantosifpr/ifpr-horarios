@@ -63,7 +63,7 @@ sidebar_position: 1
 - [Haroldo Yutaka Misunaga](professor/haroldo_yutaka_misunaga)
 - [Keitilanger Grisa Hahn](professor/keitilanger_grisa_hahn)
 - [Lechan Colares Santos](professor/lechan_colares_santos)
-- [Pss Gestao](professor/pss_gestao)
+- [Daiane Cristina da Silva](professor/pss_gestao)
 
 ## História
 - [Andre Alexandre Valentini](professor/andre_alexandre_valentini)

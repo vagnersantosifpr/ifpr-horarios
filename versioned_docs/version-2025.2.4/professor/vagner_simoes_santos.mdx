@@ -151,7 +151,12 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Chefe da Seção de Inovação e Empreendedorismo",
+    "officeHours": "Segunda, Terça, Quarta e Sexta-feira, das 13:00 às 16:30, na Sala da Coordenação de Apoio.",
+    "notes": "Solicitações fora deste horário podem ser feitos por e-mail."
+  }
 }
 
 # Vagner Simões Santos
@@ -168,4 +173,21 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

@@ -43,14 +43,18 @@ sidebar_position: 1
 ## Alimentos - Técnico Subsequente
 - [Tal 2024](turma/tal2024)
 - [Tal 2025](turma/tal2025)
+- [Tal 2024 e Ele 2025](turma/ele2025tal2024)
 
 ## Eletromecânica - Técnico Subsequente
 - [Elm 2024](turma/elm2024)
 - [Elm 2025](turma/elm2025)
+- [Elm 2025 e Ele 2025](turma/ele2025elm2025)
 
 ## Eletrotécnica - Técnico Subsequente
 - [Ele 2024](turma/ele2024)
 - [Ele 2025](turma/ele2025)
+- [Ele 2025 e Elm 2025](turma/ele2025elm2025)
+- [Ele 2025 e Tal 2024](turma/ele2025tal2024)
 
 ## Análise e Desenvolvimento de Sistemas - Graduação
 - [Tads Esp](turma/tads_esp)

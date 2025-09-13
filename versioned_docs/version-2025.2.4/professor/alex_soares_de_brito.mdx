@@ -167,7 +167,8 @@ export const data = {
   ],
   "teacherInfo": {
     "role": "Coordenador de Pesquisa, Extensão e Inovação",
-    "officeHours": "Segunda, Terça, Quarta, Quinta e Sexta-feira, das 13:00 às 16:30, na Sala da Coordenação de Apoio.",
+    "officeHours": "Quarta-feira, das 13:00 às 17:00."
+    "workHours": "Segunda, Terça, Quinta e Sexta-feira, das 13:00 às 16:30, na Sala da Coordenação de Apoio.",
     "notes": "Solicitações fora deste horário podem ser feitos por e-mail."
   }
 }
@@ -201,6 +202,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades da Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

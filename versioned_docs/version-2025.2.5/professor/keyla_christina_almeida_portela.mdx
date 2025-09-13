@@ -7,83 +7,15 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Marketing de Relacionamento - 1519",
-          "size": 2,
-          "teachers": [
-            "Keyla Christina Almeida Portela"
-          ],
-          "classroom": "laboratorio_de_informatica_a",
-          "students": [
-            "TGC2025"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        },
-        {
-          "subject": "Elaboração de Projetos - 1505",
-          "size": 2,
-          "teachers": [
-            "Keyla Christina Almeida Portela"
-          ],
-          "classroom": "laboratorio_de_informatica_a",
-          "students": [
-            "TGC2024"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Inglês Instrumental - 2481",
-          "size": 2,
-          "teachers": [
-            "Keyla Christina Almeida Portela"
-          ],
-          "classroom": "sala_5",
-          "students": [
-            "TGC2024"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Design de loja, visual merchandising e franchising - 2483",
-          "size": 2,
-          "teachers": [
-            "Keyla Christina Almeida Portela"
-          ],
-          "classroom": "laboratorio_de_informatica_a",
-          "students": [
-            "TGC2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        },
-        {
-          "subject": "Gestão da informação, comunicação e documentação - 2403",
-          "size": 2,
-          "teachers": [
-            "Keyla Christina Almeida Portela"
-          ],
-          "classroom": "laboratorio_de_informatica_a",
-          "students": [
-            "TGC2025"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
@@ -151,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Segunda, das 18:00 às 19:00. | Quarta, das 18:00 às 19:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Keyla Christina Almeida Portela
@@ -168,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

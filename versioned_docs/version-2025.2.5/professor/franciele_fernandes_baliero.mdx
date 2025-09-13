@@ -7,122 +7,15 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Educação Física 2 - 170",
-          "size": 1,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "EIN2024"
-          ],
-          "time": "08:20 - 09:10",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física II - 1227",
-          "size": 2,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "IIW2024A"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física II - 2419",
-          "size": 2,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "COM2024"
-          ],
-          "time": "15:05 - 15:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Educação Física I - 1072",
-          "size": 2,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "IIW2025A"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física I - 2323",
-          "size": 2,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "COM2025"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Educação Física 1 - 123",
-          "size": 1,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "EIN2025"
-          ],
-          "time": "08:20 - 09:10",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física 3 - 203",
-          "size": 1,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "EIN2023"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        },
-        {
-          "subject": "Metodologia Científica e Técnicas de Apresentação de Trabalhos - 1466",
-          "size": 2,
-          "teachers": [
-            "Franciele Fernandes Baliero"
-          ],
-          "classroom": "laboratorio_de_informatica_b",
-          "students": [
-            "AGR2025"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
@@ -190,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "A ser definido.",
+    "workHours": "A ser definido.",
+    "notes": "Portaria Reitor 233/22, de 17/03/2022 à 12/07/2025"
+  }
 }
 
 # Franciele Fernandes Baliero
@@ -207,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

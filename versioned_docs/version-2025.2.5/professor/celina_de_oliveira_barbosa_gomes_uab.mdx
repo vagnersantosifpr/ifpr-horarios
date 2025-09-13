@@ -1,0 +1,127 @@
+import { Grid } from "@site/src/components/Grid";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+export const data = {
+  "title": "Celina de Oliveira Barbosa Gomes (UAB)",
+  "base": "",
+  "weekClasses": [
+    {
+      "dayName": "Segunda-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Quarta-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Quinta-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Sexta-Feira",
+      "dayClasses": []
+    }
+  ],
+  "time": [
+    {
+      "time": "07:30 - 08:20",
+      "size": 50
+    },
+    {
+      "time": "08:20 - 09:10",
+      "size": 50
+    },
+    {
+      "time": "09:25 - 10:15",
+      "size": 50
+    },
+    {
+      "time": "10:15 - 11:05",
+      "size": 50
+    },
+    {
+      "time": "11:05 - 11:55",
+      "size": 50
+    },
+    {
+      "time": "13:10 - 14:00",
+      "size": 50
+    },
+    {
+      "time": "14:00 - 14:50",
+      "size": 50
+    },
+    {
+      "time": "15:05 - 15:55",
+      "size": 50
+    },
+    {
+      "time": "15:55 - 16:45",
+      "size": 50
+    },
+    {
+      "time": "16:45 - 17:35",
+      "size": 50
+    },
+    {
+      "time": "19:00 - 19:50",
+      "size": 50
+    },
+    {
+      "time": "19:50 - 20:40",
+      "size": 50
+    },
+    {
+      "time": "21:00 - 21:50",
+      "size": 50
+    },
+    {
+      "time": "21:50 - 22:40",
+      "size": 50
+    }
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "A ser definido.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
+}
+
+# Celina de Oliveira Barbosa Gomes (UAB)
+
+<div>
+  {
+    <BrowserOnly>
+      {() => (
+        <Grid
+          title={data.title}
+          weekClasses={data.weekClasses}
+          time={data.time}
+        />
+      )}
+    </BrowserOnly>
+  }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
+</div>

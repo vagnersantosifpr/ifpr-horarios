@@ -11,34 +11,7 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Fundamentos de informática - 1076",
-          "size": 2,
-          "teachers": [
-            "Sergio Ricardo Ferrazoli"
-          ],
-          "classroom": "laboratorio_de_informatica_b_-_cr_toledo",
-          "students": [
-            "IIW2025B - Grupo A"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Fundamentos de informática - 1076",
-          "size": 2,
-          "teachers": [
-            "Sergio Ricardo Ferrazoli"
-          ],
-          "classroom": "laboratorio_de_informatica_b_-_cr_toledo",
-          "students": [
-            "IIW2025B - Grupo B"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -110,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Coordenador de Curso",
+    "officeHours": "Quinta, das 13:00 às 17:00.",
+    "workHours": "A ser definido.",
+    "notes": "Coordenador Curso Técnico em Informática para Internet, portaria do reitor 1007/2024"
+  }
 }
 
 # Sergio Ricardo Ferrazoli
@@ -127,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

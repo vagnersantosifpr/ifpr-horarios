@@ -7,21 +7,7 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Química Orgânica e Bioquímica dos Alimentos - 2372",
-          "size": 2,
-          "teachers": [
-            "Antonio Cesar Godoy"
-          ],
-          "classroom": "laboratorio_de_quimica",
-          "students": [
-            "TAL2025"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
@@ -29,21 +15,7 @@ export const data = {
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Química Orgânica e Bioquímica dos Alimentos - 2372",
-          "size": 2,
-          "teachers": [
-            "Antonio Cesar Godoy"
-          ],
-          "classroom": "laboratorio_de_quimica",
-          "students": [
-            "TAL2025"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
@@ -51,47 +23,7 @@ export const data = {
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Química I - 461",
-          "size": 2,
-          "teachers": [
-            "Antonio Cesar Godoy"
-          ],
-          "classroom": "sala_8-2",
-          "students": [
-            "AGO2025"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Química II - 618",
-          "size": 2,
-          "teachers": [
-            "Antonio Cesar Godoy"
-          ],
-          "classroom": "laboratorio_de_quimica",
-          "students": [
-            "AGO2024"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        },
-        {
-          "subject": "Química III - 1085",
-          "size": 2,
-          "teachers": [
-            "Antonio Cesar Godoy"
-          ],
-          "classroom": "laboratorio_de_quimica",
-          "students": [
-            "AGO2023"
-          ],
-          "time": "15:05 - 15:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -151,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Coordenador de Curso",
+    "officeHours": "Segunda, das 13:10 às 15:10. | Quarta, das 16:00 às 18:00.",
+    "workHours": "A ser definido.",
+    "notes": "Coordenador"
+  }
 }
 
 # Antonio Cesar Godoy
@@ -168,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

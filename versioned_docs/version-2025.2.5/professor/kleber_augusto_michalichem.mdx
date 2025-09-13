@@ -11,34 +11,7 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Educação Física I - 1072",
-          "size": 2,
-          "teachers": [
-            "Kleber Augusto Michalichem"
-          ],
-          "classroom": "sala_04_-_cr_toledo",
-          "students": [
-            "IIW2025B"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física II - 1227",
-          "size": 2,
-          "teachers": [
-            "Kleber Augusto Michalichem"
-          ],
-          "classroom": "sala_04_-_cr_toledo",
-          "students": [
-            "IIW2024B"
-          ],
-          "time": "15:05 - 15:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -46,65 +19,11 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Educação Física II - 615",
-          "size": 2,
-          "teachers": [
-            "Kleber Augusto Michalichem"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "AGO2024"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física I - 457",
-          "size": 1,
-          "teachers": [
-            "Kleber Augusto Michalichem"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "AGO2025"
-          ],
-          "time": "11:05 - 11:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Educação Física III - 1082",
-          "size": 2,
-          "teachers": [
-            "Kleber Augusto Michalichem"
-          ],
-          "classroom": "sala_12-2",
-          "students": [
-            "AGO2023"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Educação Física I - 457",
-          "size": 1,
-          "teachers": [
-            "Kleber Augusto Michalichem"
-          ],
-          "classroom": "educacao_fisica_sala_1_b2",
-          "students": [
-            "AGO2025"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -164,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Terça, das 10:00 às 12:00. | Quarta, das 14:00 às 16:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Kleber Augusto Michalichem
@@ -181,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

@@ -11,34 +11,7 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Lógica de programação - 1075",
-          "size": 2,
-          "teachers": [
-            "Caroline Domingues Porto do Nascimento Barbieri"
-          ],
-          "classroom": "laboratorio_de_informatica_c_-_cr_toledo",
-          "students": [
-            "IIW2025B - Grupo B"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Lógica de programação - 1075",
-          "size": 2,
-          "teachers": [
-            "Caroline Domingues Porto do Nascimento Barbieri"
-          ],
-          "classroom": "laboratorio_de_informatica_c_-_cr_toledo",
-          "students": [
-            "IIW2025B - Grupo A"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -46,39 +19,11 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Projeto integrador I - 1078",
-          "size": 2,
-          "teachers": [
-            "Caroline Domingues Porto do Nascimento Barbieri"
-          ],
-          "classroom": "laboratorio_de_informatica_a_-_cr_toledo",
-          "students": [
-            "IIW2025B"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Lógica de programação - 1075",
-          "size": 2,
-          "teachers": [
-            "Caroline Domingues Porto do Nascimento Barbieri"
-          ],
-          "classroom": "laboratorio_de_informatica_c",
-          "students": [
-            "IIW2025A"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -138,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Quarta, das 13:00 às 17:00. | Sexta, das 13:00 às 17:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Caroline Domingues Porto do Nascimento Barbieri
@@ -155,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

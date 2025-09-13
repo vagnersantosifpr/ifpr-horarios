@@ -7,91 +7,11 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Física III - 2456",
-          "size": 2,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "laboratorio_de_fisica",
-          "students": [
-            "COM2023"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Física I - 2325",
-          "size": 2,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "laboratorio_de_fisica",
-          "students": [
-            "COM2025"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Física II - 2421",
-          "size": 2,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "laboratorio_de_fisica",
-          "students": [
-            "COM2024"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Física II - 1229",
-          "size": 2,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "sala_02_-_cr_toledo",
-          "students": [
-            "IIW2024B"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Física III - 1242",
-          "size": 2,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "sala_03_-_cr_toledo",
-          "students": [
-            "IIW2023B"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        },
-        {
-          "subject": "Física I - 1070",
-          "size": 2,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "sala_01_-_cr_toledo",
-          "students": [
-            "IIW2025B"
-          ],
-          "time": "15:05 - 15:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -103,21 +23,7 @@ export const data = {
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Projeto Integrador - 1593",
-          "size": 1,
-          "teachers": [
-            "Vitor Prestes Luzio"
-          ],
-          "classroom": "sala_1-4",
-          "students": [
-            "EIN2022"
-          ],
-          "time": "11:05 - 11:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -177,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Quarta, das 14:00 às 16:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Vitor Prestes Luzio
@@ -194,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

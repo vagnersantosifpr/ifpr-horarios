@@ -7,70 +7,15 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Elementos de Automação - 198",
-          "size": 2,
-          "teachers": [
-            "Jair Fajardo Junior"
-          ],
-          "classroom": "laboratorio_de_automacao_e_robotica_industrial",
-          "students": [
-            "EIN2023"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Robótica Aplicada - 350",
-          "size": 2,
-          "teachers": [
-            "Jair Fajardo Junior"
-          ],
-          "classroom": "laboratorio_de_automacao_e_robotica_industrial",
-          "students": [
-            "ELM2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Elementos de automação (PPC2020) - 2315",
-          "size": 4,
-          "teachers": [
-            "Jair Fajardo Junior"
-          ],
-          "classroom": "laboratorio_de_automacao_e_robotica_industrial",
-          "students": [
-            "ELE2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Programação de Equipamentos Industriais - 348",
-          "size": 4,
-          "teachers": [
-            "Jair Fajardo Junior"
-          ],
-          "classroom": "sala_13-2",
-          "students": [
-            "ELM2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
@@ -138,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Terça, das 14:00 às 18:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Jair Fajardo Junior
@@ -155,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

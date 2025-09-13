@@ -7,114 +7,19 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Projeto Integrador II - 1239",
-          "size": 2,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "laboratorio_de_informatica_b_-_cr_toledo",
-          "students": [
-            "IIW2024B"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Filosofia 4 - 223",
-          "size": 1,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "sala_1-4",
-          "students": [
-            "EIN2022"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Administração de Sistemas Operacionais e Redes - 1236",
-          "size": 2,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "laboratorio_de_informatica_b_-_cr_toledo",
-          "students": [
-            "IIW2024B"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Administração de Sistemas Operacionais e Redes - 1236",
-          "size": 4,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "laboratorio_de_computacao_aplicada",
-          "students": [
-            "IIW2024A"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Serviços em nuvem - 1250",
-          "size": 2,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "laboratorio_de_informatica_c_-_cr_toledo",
-          "students": [
-            "IIW2023B"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        },
-        {
-          "subject": "Administração de Sistemas Operacionais e Redes - 1236",
-          "size": 1,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "laboratorio_de_informatica_b_-_cr_toledo",
-          "students": [
-            "IIW2024B"
-          ],
-          "time": "11:05 - 11:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Administração de Sistemas Operacionais e Redes - 1236",
-          "size": 1,
-          "teachers": [
-            "Olavo José Luiz Junior"
-          ],
-          "classroom": "laboratorio_de_informatica_b_-_cr_toledo",
-          "students": [
-            "IIW2024B"
-          ],
-          "time": "11:05 - 11:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
@@ -178,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Quinta, das 13:30 às 16:30.",
+    "workHours": "A ser definido.",
+    "notes": "Portraia do Reitor 1094/2023 - de  01/08/2023 à 13/06/2025"
+  }
 }
 
 # Olavo José Luiz Junior
@@ -195,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

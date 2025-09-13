@@ -11,116 +11,19 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Mecanização Agrícola, Irrigação e Drenagem - 1096",
-          "size": 2,
-          "teachers": [
-            "Octavio Henrique Viana",
-            "Elias Franco"
-          ],
-          "classroom": "sala_12-2",
-          "students": [
-            "AGO2023"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Construções e Instalações Rurais - 630",
-          "size": 2,
-          "teachers": [
-            "Elias Franco"
-          ],
-          "classroom": "sala_13-2",
-          "students": [
-            "AGO2024"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Agricultura Geral - 466",
-          "size": 2,
-          "teachers": [
-            "Elias Franco"
-          ],
-          "classroom": "sala_8-2",
-          "students": [
-            "AGO2025"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Irrigação e Drenagem - 2216",
-          "size": 2,
-          "teachers": [
-            "Octavio Henrique Viana",
-            "Elias Franco"
-          ],
-          "classroom": "sala_6-2",
-          "students": [
-            "AGR2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Extensão e Comunicação Rural - 2213",
-          "size": 2,
-          "teachers": [
-            "Elias Franco"
-          ],
-          "classroom": "sala_6-2",
-          "students": [
-            "AGR2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Sistemas Agroflorestais - 629",
-          "size": 2,
-          "teachers": [
-            "Elias Franco"
-          ],
-          "classroom": "sala_13-2",
-          "students": [
-            "AGO2024"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        },
-        {
-          "subject": "Sociologia e Extensão Rural - 1087",
-          "size": 2,
-          "teachers": [
-            "Elias Franco"
-          ],
-          "classroom": "sala_12-2",
-          "students": [
-            "AGO2023"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -180,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Quarta, das 13:00 às 17:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Elias Franco
@@ -197,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

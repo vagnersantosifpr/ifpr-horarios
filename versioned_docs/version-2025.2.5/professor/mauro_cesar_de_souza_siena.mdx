@@ -11,34 +11,7 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Matemática I - 2327",
-          "size": 2,
-          "teachers": [
-            "Mauro César de Souza Siena"
-          ],
-          "classroom": "sala_7-2",
-          "students": [
-            "COM2025"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Matemática III - 2463",
-          "size": 2,
-          "teachers": [
-            "Mauro César de Souza Siena"
-          ],
-          "classroom": "sala_3-1",
-          "students": [
-            "COM2023"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -46,34 +19,7 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Matemática I - 2327",
-          "size": 2,
-          "teachers": [
-            "Mauro César de Souza Siena"
-          ],
-          "classroom": "sala_7-2",
-          "students": [
-            "COM2025"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Estatística aplicada - 2400",
-          "size": 2,
-          "teachers": [
-            "Mauro César de Souza Siena"
-          ],
-          "classroom": "laboratorio_de_informatica_a",
-          "students": [
-            "TGC2025"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
@@ -137,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "A ser definido.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Mauro César de Souza Siena
@@ -154,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

@@ -7,52 +7,11 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Segurança do Trabalho - 197",
-          "size": 1,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "sala_11-2",
-          "students": [
-            "EIN2023"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        },
-        {
-          "subject": "Segurança do Trabalho - 345",
-          "size": 2,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "sala_13-2",
-          "students": [
-            "ELM2024"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Elementos de Máquinas - 349",
-          "size": 2,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "sala_13-2",
-          "students": [
-            "ELM2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -60,65 +19,11 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Cálculo Mecânico - 154",
-          "size": 2,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "sala_15-2",
-          "students": [
-            "EIN2024"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Segurança do Trabalho - 693",
-          "size": 2,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "sala_12-2",
-          "students": [
-            "ELE2025"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        },
-        {
-          "subject": "Segurança do trabalho - 2388",
-          "size": 2,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "sala_15-2",
-          "students": [
-            "TAL2024"
-          ],
-          "time": "21:00 - 21:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Circuitos Hidráulicos e Pneumáticos - 347",
-          "size": 4,
-          "teachers": [
-            "Darlan Roque Dapieve"
-          ],
-          "classroom": "laboratorio_de_computacao_aplicada",
-          "students": [
-            "ELM2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -178,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "Terça, das 13:00 às 17:00.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Darlan Roque Dapieve
@@ -195,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

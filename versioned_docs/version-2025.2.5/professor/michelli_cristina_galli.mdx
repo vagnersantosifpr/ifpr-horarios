@@ -15,21 +15,7 @@ export const data = {
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Língua Portuguesa e Literatura I - 2515",
-          "size": 1,
-          "teachers": [
-            "Michelli Cristina Galli"
-          ],
-          "classroom": "sala_8-2",
-          "students": [
-            "AGO2025"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
@@ -37,60 +23,7 @@ export const data = {
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Língua Portuguesa e Literatura II - 2522",
-          "size": 1,
-          "teachers": [
-            "Michelli Cristina Galli"
-          ],
-          "classroom": "sala_13-2",
-          "students": [
-            "AGO2024"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Lingua Estrangeira Moderna - Espanhol - 1540",
-          "size": 1,
-          "teachers": [
-            "Michelli Cristina Galli"
-          ],
-          "classroom": "sala_6-2",
-          "students": [
-            "EIN2025"
-          ],
-          "time": "09:25 - 10:15",
-          "color": ""
-        },
-        {
-          "subject": "Língua Portuguesa e Literatura III - 1081",
-          "size": 1,
-          "teachers": [
-            "Michelli Cristina Galli"
-          ],
-          "classroom": "sala_12-2",
-          "students": [
-            "AGO2023"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Língua Estrangeira Moderna - Espanhol - 1254",
-          "size": 1,
-          "teachers": [
-            "Michelli Cristina Galli"
-          ],
-          "classroom": "sala_5",
-          "students": [
-            "IIW2023A"
-          ],
-          "time": "11:05 - 11:55",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     }
   ],
   "time": [
@@ -150,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Coordenador de Curso",
+    "officeHours": "Quinta, das 13:00 às 17:00.",
+    "workHours": "A ser definido.",
+    "notes": "Coordenador do Curso Técnico em Agropecuária, Portaria do reitor  1154/2023"
+  }
 }
 
 # Michelli Cristina Galli
@@ -167,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

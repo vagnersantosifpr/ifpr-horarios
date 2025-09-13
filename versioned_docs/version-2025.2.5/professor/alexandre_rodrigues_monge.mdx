@@ -7,83 +7,15 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Projeto integrador I - 1078",
-          "size": 2,
-          "teachers": [
-            "Alexandre Rodrigues Monge"
-          ],
-          "classroom": "laboratorio_de_informatica_c",
-          "students": [
-            "IIW2025A"
-          ],
-          "time": "07:30 - 08:20",
-          "color": ""
-        },
-        {
-          "subject": "Projeto Integrador III - 1253",
-          "size": 2,
-          "teachers": [
-            "Alexandre Rodrigues Monge"
-          ],
-          "classroom": "laboratorio_de_informatica_a_-_cr_toledo",
-          "students": [
-            "IIW2023A"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Projeto Integrador II - 1239",
-          "size": 2,
-          "teachers": [
-            "Alexandre Rodrigues Monge"
-          ],
-          "classroom": "laboratorio_de_informatica_a",
-          "students": [
-            "IIW2024A"
-          ],
-          "time": "13:10 - 14:00",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Apoio Presencial - 2531",
-          "size": 4,
-          "teachers": [
-            "Alexandre Rodrigues Monge"
-          ],
-          "classroom": "",
-          "students": [
-            "EADSP2025"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Apoio Presencial - 2531",
-          "size": 4,
-          "teachers": [
-            "Alexandre Rodrigues Monge"
-          ],
-          "classroom": "",
-          "students": [
-            "EADSP2025"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quinta-Feira",
@@ -151,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Professor(a) EBTT / Pesquisador(a)",
+    "officeHours": "A ser definido.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Alexandre Rodrigues Monge
@@ -168,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

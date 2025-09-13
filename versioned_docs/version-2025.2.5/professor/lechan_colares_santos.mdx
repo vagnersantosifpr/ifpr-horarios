@@ -7,65 +7,11 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": [
-        {
-          "subject": "Gestão de Materiais e Logística - 2458",
-          "size": 2,
-          "teachers": [
-            "Lechan Colares Santos"
-          ],
-          "classroom": "sala_3-1",
-          "students": [
-            "COM2023"
-          ],
-          "time": "15:05 - 15:55",
-          "color": ""
-        },
-        {
-          "subject": "Logística aplicada - 1503",
-          "size": 2,
-          "teachers": [
-            "Lechan Colares Santos"
-          ],
-          "classroom": "sala_5",
-          "students": [
-            "TGC2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": [
-        {
-          "subject": "Gestão de compras e estoque - 2428",
-          "size": 2,
-          "teachers": [
-            "Lechan Colares Santos"
-          ],
-          "classroom": "sala_14-2",
-          "students": [
-            "COM2024"
-          ],
-          "time": "10:15 - 11:05",
-          "color": ""
-        },
-        {
-          "subject": "Logística aplicada - 1503",
-          "size": 2,
-          "teachers": [
-            "Lechan Colares Santos"
-          ],
-          "classroom": "sala_5",
-          "students": [
-            "TGC2024"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -137,7 +83,13 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ]
+  ],
+  "teacherInfo": {
+    "role": "Coordenador de Curso",
+    "officeHours": "Quarta, das 13:00 às 16:00. | Quarta, das 19:50 às 20:50.",
+    "workHours": "A ser definido.",
+    "notes": "Nenhuma observação."
+  }
 }
 
 # Lechan Colares Santos
@@ -154,4 +106,22 @@ export const data = {
       )}
     </BrowserOnly>
   }
+</div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>

@@ -9,6 +9,19 @@ export const data = {
       "dayName": "Segunda-Feira",
       "dayClasses": [
         {
+          "subject": "Sociologia 3 - 212",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "sala_15-2",
+          "students": [
+            "EIN2024"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Sociologia 2 - 189",
           "size": 1,
           "teachers": [
@@ -54,11 +67,50 @@ export const data = {
           "teachers": [
             "Olavo Henrique Vieira Veiga"
           ],
+          "classroom": "sala_7-2",
+          "students": [
+            "COM2025"
+          ],
+          "time": "11:05 - 11:55",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia I - 2424",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
           "classroom": "sala_14-2",
           "students": [
             "COM2024"
           ],
           "time": "11:05 - 11:55",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia I - 1071",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "15:05 - 15:55",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia I - 465",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "",
+          "students": [
+            "AGO2026B"
+          ],
+          "time": "16:45 - 17:35",
           "color": ""
         }
       ]
@@ -88,6 +140,32 @@ export const data = {
           "color": ""
         },
         {
+          "subject": "Sociologia I - 465",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "",
+          "students": [
+            "AGO2026A"
+          ],
+          "time": "08:20 - 09:10",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia 4 - 238",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "sala_11-2",
+          "students": [
+            "EIN2023"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
           "subject": "Sociologia I - 1071",
           "size": 1,
           "teachers": [
@@ -98,6 +176,19 @@ export const data = {
             "IIW2025A"
           ],
           "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia I - 1071",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "11:05 - 11:55",
           "color": ""
         }
       ]
@@ -132,6 +223,19 @@ export const data = {
           "color": ""
         },
         {
+          "subject": "Sociologia 2 - 189",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "sala_6-2",
+          "students": [
+            "EIN2025"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
           "subject": "Sociologia I - 1071",
           "size": 1,
           "teachers": [
@@ -145,6 +249,19 @@ export const data = {
           "color": ""
         },
         {
+          "subject": "Sociologia I - 2424",
+          "size": 2,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "sala_7-2",
+          "students": [
+            "COM2025"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
           "subject": "Sociologia I - 465",
           "size": 2,
           "teachers": [
@@ -155,6 +272,32 @@ export const data = {
             "AGO2025"
           ],
           "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia I - 465",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "",
+          "students": [
+            "AGO2026A"
+          ],
+          "time": "15:05 - 15:55",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia I - 465",
+          "size": 1,
+          "teachers": [
+            "Olavo Henrique Vieira Veiga"
+          ],
+          "classroom": "",
+          "students": [
+            "AGO2026B"
+          ],
+          "time": "16:45 - 17:35",
           "color": ""
         }
       ]
@@ -217,13 +360,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Olavo Henrique Vieira Veiga
@@ -255,7 +392,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

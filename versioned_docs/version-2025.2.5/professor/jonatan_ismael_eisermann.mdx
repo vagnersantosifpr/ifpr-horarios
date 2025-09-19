@@ -7,11 +7,38 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Matemática II - 1231",
+          "size": 2,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "sala_9-2",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
       "dayClasses": [
+        {
+          "subject": "Matemática II - 1231",
+          "size": 2,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "sala_9-2",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
         {
           "subject": "Matemática II - 1231",
           "size": 2,
@@ -23,6 +50,19 @@ export const data = {
             "IIW2024A"
           ],
           "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Matemática 3 - 210",
+          "size": 2,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "sala_15-2",
+          "students": [
+            "EIN2024"
+          ],
+          "time": "09:25 - 10:15",
           "color": ""
         },
         {
@@ -68,6 +108,19 @@ export const data = {
           ],
           "time": "10:15 - 11:05",
           "color": ""
+        },
+        {
+          "subject": "Pré-Cálculo - 2588",
+          "size": 4,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
         }
       ]
     },
@@ -106,6 +159,19 @@ export const data = {
       "dayName": "Sexta-Feira",
       "dayClasses": [
         {
+          "subject": "Matemática 2 - 185",
+          "size": 2,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "sala_6-2",
+          "students": [
+            "EIN2025"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Matemática II - 2423",
           "size": 2,
           "teachers": [
@@ -116,6 +182,19 @@ export const data = {
             "COM2024"
           ],
           "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Matemática 4 - 234",
+          "size": 3,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "sala_11-2",
+          "students": [
+            "EIN2023"
+          ],
+          "time": "09:25 - 10:15",
           "color": ""
         },
         {
@@ -191,13 +270,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Jonatan Ismael Eisermann
@@ -229,7 +302,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

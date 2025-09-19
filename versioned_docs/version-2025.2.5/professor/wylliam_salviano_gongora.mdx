@@ -7,11 +7,39 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Instrumentos de Medidas Elétricas - 139",
+          "size": 2,
+          "teachers": [
+            "Wylliam Salviano Gongora"
+          ],
+          "classroom": "",
+          "students": [
+            "ELM2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Máquinas Elétricas e Acionamentos - 110",
+          "size": 2,
+          "teachers": [
+            "Wylliam Salviano Gongora"
+          ],
+          "classroom": "laboratorio_de_maquinas_e_acionamentos_eletricos_b4",
+          "students": [
+            "ELM2025"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quarta-Feira",
@@ -26,11 +54,24 @@ export const data = {
           "teachers": [
             "Wylliam Salviano Gongora"
           ],
-          "classroom": "laboratorio_de_maquinas_e_acionamentos_eletricos_b4",
+          "classroom": "sala_15-2",
           "students": [
-            "EIN2023"
+            "EIN2024"
           ],
           "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Máquinas elétricas - 2231",
+          "size": 4,
+          "teachers": [
+            "Wylliam Salviano Gongora"
+          ],
+          "classroom": "sala_12-2",
+          "students": [
+            "ELE2025"
+          ],
+          "time": "19:00 - 19:50",
           "color": ""
         }
       ]
@@ -97,13 +138,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Terça, das 14:00 às 17:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Wylliam Salviano Gongora
@@ -135,7 +170,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

@@ -7,7 +7,60 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Biologia 4 - 222",
+          "size": 2,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "EIN2023"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Biologia 2 - 168",
+          "size": 1,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "EIN2025"
+          ],
+          "time": "11:05 - 11:55",
+          "color": ""
+        },
+        {
+          "subject": "Biologia III - 1083",
+          "size": 2,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "AGO2024"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "Biologia I - 459",
+          "size": 2,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "AGO2026B"
+          ],
+          "time": "15:05 - 15:55",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
@@ -27,6 +80,19 @@ export const data = {
           "color": ""
         },
         {
+          "subject": "Biologia I - 2324",
+          "size": 2,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "COM2026"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
           "subject": "Biologia 1 - 122",
           "size": 1,
           "teachers": [
@@ -41,16 +107,16 @@ export const data = {
           "color": ""
         },
         {
-          "subject": "Estágio curricular supervisionado em ciências II - 2039",
+          "subject": "Biologia I - 459",
           "size": 2,
           "teachers": [
             "Eliana Peliçon Pereira Figueira"
           ],
-          "classroom": "laboratorio_de_informatica_c",
+          "classroom": "laboratorio_de_biologia",
           "students": [
-            "BIO_ESPECIAL_2"
+            "AGO2026A"
           ],
-          "time": "19:00 - 19:50",
+          "time": "15:55 - 16:45",
           "color": ""
         }
       ]
@@ -58,6 +124,19 @@ export const data = {
     {
       "dayName": "Quarta-Feira",
       "dayClasses": [
+        {
+          "subject": "Biologia III - 2453",
+          "size": 2,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "COM2024"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
         {
           "subject": "Biologia I - 2324",
           "size": 2,
@@ -97,19 +176,6 @@ export const data = {
             "BIO_ESPECIAL_2"
           ],
           "time": "19:00 - 19:50",
-          "color": ""
-        },
-        {
-          "subject": "Estágio curricular supervisionado em ciências I - 84",
-          "size": 1,
-          "teachers": [
-            "Eliana Peliçon Pereira Figueira"
-          ],
-          "classroom": "laboratorio_de_informatica_c",
-          "students": [
-            "BIO_ESPECIAL_2"
-          ],
-          "time": "21:00 - 21:50",
           "color": ""
         }
       ]
@@ -248,13 +314,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Quarta, das 13:30 às 17:30. | Quinta, das 13:30 às 15:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Eliana Peliçon Pereira Figueira
@@ -286,7 +346,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

@@ -9,6 +9,19 @@ export const data = {
       "dayName": "Segunda-Feira",
       "dayClasses": [
         {
+          "subject": "Biologia I - 2576",
+          "size": 2,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Prática profissional (estágio obrigatório) e escrita de relatório - 2387",
           "size": 2,
           "teachers": [
@@ -20,12 +33,38 @@ export const data = {
           ],
           "time": "19:00 - 19:50",
           "color": ""
+        },
+        {
+          "subject": "Biofísica - 82",
+          "size": 2,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
         }
       ]
     },
     {
       "dayName": "Terça-Feira",
       "dayClasses": [
+        {
+          "subject": "Biologia III - 1241",
+          "size": 2,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "sala_03_-_cr_toledo",
+          "students": [
+            "IIW2024A"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
         {
           "subject": "Biologia I - 1073",
           "size": 2,
@@ -51,12 +90,51 @@ export const data = {
           ],
           "time": "15:05 - 15:55",
           "color": ""
+        },
+        {
+          "subject": "Biologia I - 2576",
+          "size": 1,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "15:55 - 16:45",
+          "color": ""
         }
       ]
     },
     {
       "dayName": "Quarta-Feira",
       "dayClasses": [
+        {
+          "subject": "Biologia I - 1073",
+          "size": 2,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "laboratorio_de_biologia",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Métodos analíticos - 2379",
+          "size": 2,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "sala_16-2",
+          "students": [
+            "TAL2025"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
         {
           "subject": "Prática profissional (estágio obrigatório) e escrita de relatório - 2387",
           "size": 1,
@@ -74,21 +152,7 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": [
-        {
-          "subject": "Biofísica - 82",
-          "size": 2,
-          "teachers": [
-            "Leandro Luiz Borges"
-          ],
-          "classroom": "laboratorio_de_biologia",
-          "students": [
-            "BIO_ESPECIAL_1"
-          ],
-          "time": "19:00 - 19:50",
-          "color": ""
-        }
-      ]
+      "dayClasses": []
     },
     {
       "dayName": "Sexta-Feira",
@@ -152,13 +216,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Coordenador de Curso",
-    "officeHours": "Quinta, das 14:00 às 16:00. | Quarta, das 19:00 às 21:00.",
-    "workHours": "A ser definido.",
-    "notes": "Coordenador do curso técnico em Alimentos, portaria do Reitor 1159/2023"
-  }
+  ]
 }
 
 # Leandro Luiz Borges
@@ -190,7 +248,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

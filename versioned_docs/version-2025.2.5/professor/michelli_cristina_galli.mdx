@@ -11,11 +11,38 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Língua Portuguesa e Literatura III - 1081",
+          "size": 2,
+          "teachers": [
+            "Michelli Cristina Galli"
+          ],
+          "classroom": "sala_13-2",
+          "students": [
+            "AGO2024"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quarta-Feira",
       "dayClasses": [
+        {
+          "subject": "Língua Estrangeira Moderna - Espanhol - 1254",
+          "size": 1,
+          "teachers": [
+            "Michelli Cristina Galli"
+          ],
+          "classroom": "sala_16-2",
+          "students": [
+            "IIW2024A"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
         {
           "subject": "Língua Portuguesa e Literatura I - 2515",
           "size": 1,
@@ -38,6 +65,19 @@ export const data = {
     {
       "dayName": "Sexta-Feira",
       "dayClasses": [
+        {
+          "subject": "Língua Portuguesa e Literatura III - 1081",
+          "size": 1,
+          "teachers": [
+            "Michelli Cristina Galli"
+          ],
+          "classroom": "sala_13-2",
+          "students": [
+            "AGO2024"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
         {
           "subject": "Língua Portuguesa e Literatura II - 2522",
           "size": 1,
@@ -150,13 +190,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Coordenador de Curso",
-    "officeHours": "Quinta, das 13:00 às 17:00.",
-    "workHours": "A ser definido.",
-    "notes": "Coordenador do Curso Técnico em Agropecuária, Portaria do reitor  1154/2023"
-  }
+  ]
 }
 
 # Michelli Cristina Galli
@@ -188,7 +222,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

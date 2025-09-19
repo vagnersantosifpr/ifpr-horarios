@@ -31,11 +31,37 @@ export const data = {
           "teachers": [
             "Josiane Paula Maltauro"
           ],
+          "classroom": "sala_14-2",
+          "students": [
+            "COM2024"
+          ],
+          "time": "08:20 - 09:10",
+          "color": ""
+        },
+        {
+          "subject": "Arte - 2452",
+          "size": 1,
+          "teachers": [
+            "Josiane Paula Maltauro"
+          ],
           "classroom": "sala_3-1",
           "students": [
             "COM2023"
           ],
           "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Arte I - 2533",
+          "size": 2,
+          "teachers": [
+            "Josiane Paula Maltauro"
+          ],
+          "classroom": "sala_01_-_cr_toledo",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "15:05 - 15:55",
           "color": ""
         }
       ]
@@ -43,6 +69,32 @@ export const data = {
     {
       "dayName": "Quarta-Feira",
       "dayClasses": [
+        {
+          "subject": "Artes I - 2575",
+          "size": 1,
+          "teachers": [
+            "Josiane Paula Maltauro"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Arte - 2452",
+          "size": 1,
+          "teachers": [
+            "Josiane Paula Maltauro"
+          ],
+          "classroom": "sala_14-2",
+          "students": [
+            "COM2024"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
         {
           "subject": "Arte - 2452",
           "size": 1,
@@ -93,7 +145,21 @@ export const data = {
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Artes II - 614",
+          "size": 2,
+          "teachers": [
+            "Josiane Paula Maltauro"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "AGO2025"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        }
+      ]
     }
   ],
   "time": [
@@ -153,13 +219,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Coordenadora do NAC",
-    "officeHours": "Segunda, das 16:00 às 17:00. | Terça, das 13:10 às 14:00. | Quinta, das 9:00 às 10:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Josiane Paula Maltauro
@@ -191,7 +251,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

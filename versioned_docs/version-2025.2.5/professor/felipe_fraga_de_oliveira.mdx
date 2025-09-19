@@ -9,6 +9,19 @@ export const data = {
       "dayName": "Segunda-Feira",
       "dayClasses": [
         {
+          "subject": "Matemática II - 2566",
+          "size": 4,
+          "teachers": [
+            "Felipe Fraga de Oliveira"
+          ],
+          "classroom": "sala_01_-_cr_toledo",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Matemática I - 2556",
           "size": 2,
           "teachers": [
@@ -27,6 +40,19 @@ export const data = {
       "dayName": "Terça-Feira",
       "dayClasses": [
         {
+          "subject": "Matemática I - 2556",
+          "size": 2,
+          "teachers": [
+            "Felipe Fraga de Oliveira"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Matemática II - 2566",
           "size": 2,
           "teachers": [
@@ -38,12 +64,38 @@ export const data = {
           ],
           "time": "07:30 - 08:20",
           "color": ""
+        },
+        {
+          "subject": "Matemática III - 2552",
+          "size": 2,
+          "teachers": [
+            "Felipe Fraga de Oliveira"
+          ],
+          "classroom": "sala_02_-_cr_toledo",
+          "students": [
+            "IIW2024B"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
         }
       ]
     },
     {
       "dayName": "Quarta-Feira",
       "dayClasses": [
+        {
+          "subject": "Matemática I - 2556",
+          "size": 2,
+          "teachers": [
+            "Felipe Fraga de Oliveira"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
         {
           "subject": "Matemática I - 2556",
           "size": 2,
@@ -152,13 +204,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Felipe Fraga de Oliveira
@@ -190,7 +236,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

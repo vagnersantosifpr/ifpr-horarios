@@ -11,7 +11,34 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Eletricidade e Medidas Elétricas - 2586",
+          "size": 2,
+          "teachers": [
+            "Danilo Hungaro Micheletti"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "Introdução à Mecatrônica e Metodologia Científica - 2584",
+          "size": 1,
+          "teachers": [
+            "Danilo Hungaro Micheletti"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "15:05 - 15:55",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quarta-Feira",
@@ -27,6 +54,19 @@ export const data = {
             "EIN2025 - Grupo B"
           ],
           "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Equipamentos elétricos e Sistema elétricos de potência - 2234",
+          "size": 4,
+          "teachers": [
+            "Danilo Hungaro Micheletti"
+          ],
+          "classroom": "sala_12-2",
+          "students": [
+            "ELE2025"
+          ],
+          "time": "19:00 - 19:50",
           "color": ""
         },
         {
@@ -72,12 +112,38 @@ export const data = {
           ],
           "time": "19:00 - 19:50",
           "color": ""
+        },
+        {
+          "subject": "Instrumentos e Medidas Elétricas - 2591",
+          "size": 2,
+          "teachers": [
+            "Danilo Hungaro Micheletti"
+          ],
+          "classroom": "",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
         }
       ]
     },
     {
       "dayName": "Sexta-Feira",
       "dayClasses": [
+        {
+          "subject": "Projetos Elétricos industriais - 2232",
+          "size": 2,
+          "teachers": [
+            "Danilo Hungaro Micheletti"
+          ],
+          "classroom": "laboratorio_de_informatica_a",
+          "students": [
+            "ELE2025"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
         {
           "subject": "Energias alternativas (PPC2020) - 2313",
           "size": 4,
@@ -151,13 +217,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Quarta, das 12:00 às 55:00. | Quinta, das 12:00 às 55:00.",
-    "workHours": "A ser definido.",
-    "notes": "tempo máximo de contrato de 19/06/2024 à 18/06/2026, contrato atual até 18/12/2025"
-  }
+  ]
 }
 
 # Danilo Hungaro Micheletti
@@ -189,7 +249,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

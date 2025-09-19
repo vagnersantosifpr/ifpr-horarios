@@ -14,6 +14,19 @@ export const data = {
           "teachers": [
             "Roberto Haruyoshi Ito"
           ],
+          "classroom": "",
+          "students": [
+            "AGO2026B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Zootecnia Geral - 467",
+          "size": 2,
+          "teachers": [
+            "Roberto Haruyoshi Ito"
+          ],
           "classroom": "sala_8-2",
           "students": [
             "AGO2025"
@@ -56,11 +69,38 @@ export const data = {
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Bovinocultura de Corte - 2208",
+          "size": 4,
+          "teachers": [
+            "Roberto Haruyoshi Ito"
+          ],
+          "classroom": "sala_7-2",
+          "students": [
+            "AGR2025"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quinta-Feira",
       "dayClasses": [
+        {
+          "subject": "Zootecnia Geral - 467",
+          "size": 2,
+          "teachers": [
+            "Roberto Haruyoshi Ito"
+          ],
+          "classroom": "",
+          "students": [
+            "AGO2026A"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
         {
           "subject": "Bovinocultura de Leite - 2209",
           "size": 2,
@@ -138,13 +178,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Roberto Haruyoshi Ito
@@ -176,7 +210,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

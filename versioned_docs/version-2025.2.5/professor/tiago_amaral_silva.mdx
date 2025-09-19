@@ -11,11 +11,51 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Educação Física I - 2323",
+          "size": 2,
+          "teachers": [
+            "Tiago Amaral Silva"
+          ],
+          "classroom": "educacao_fisica_sala_1_b2",
+          "students": [
+            "COM2026"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quarta-Feira",
       "dayClasses": [
+        {
+          "subject": "Educação Física I - 2577",
+          "size": 2,
+          "teachers": [
+            "Tiago Amaral Silva"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Educação Física II - 2419",
+          "size": 2,
+          "teachers": [
+            "Tiago Amaral Silva"
+          ],
+          "classroom": "educacao_fisica_sala_1_b2",
+          "students": [
+            "COM2025"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
         {
           "subject": "Projeto Integrador I - 2334",
           "size": 1,
@@ -165,13 +205,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Coordenador de Curso",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Portaria do Reitor 11/2023, de 28/01/2023 à 15/03/2025."
-  }
+  ]
 }
 
 # Tiago Amaral Silva
@@ -203,7 +237,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

@@ -7,11 +7,64 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Química I - 2564",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Química I - 461",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "laboratorio_de_quimica",
+          "students": [
+            "AGO2026A"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Química III - 1085",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "laboratorio_de_quimica",
+          "students": [
+            "AGO2024"
+          ],
+          "time": "15:05 - 15:55",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
       "dayClasses": [
+        {
+          "subject": "Química I - 461",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "laboratorio_de_quimica",
+          "students": [
+            "AGO2026B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
         {
           "subject": "Química III - 1243",
           "size": 2,
@@ -23,6 +76,19 @@ export const data = {
             "IIW2023A"
           ],
           "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "Química II - 618",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "laboratorio_de_quimica",
+          "students": [
+            "AGO2025"
+          ],
+          "time": "15:05 - 15:55",
           "color": ""
         },
         {
@@ -93,6 +159,19 @@ export const data = {
       "dayName": "Sexta-Feira",
       "dayClasses": [
         {
+          "subject": "Química III - 2555",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "sala_02_-_cr_toledo",
+          "students": [
+            "IIW2024B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Química III - 2466",
           "size": 2,
           "teachers": [
@@ -103,6 +182,19 @@ export const data = {
             "COM2023"
           ],
           "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Química II - 2568",
+          "size": 2,
+          "teachers": [
+            "Sabrina Kerkhoff"
+          ],
+          "classroom": "sala_01_-_cr_toledo",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "09:25 - 10:15",
           "color": ""
         },
         {
@@ -178,13 +270,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Sabrina Kerkhoff
@@ -216,7 +302,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

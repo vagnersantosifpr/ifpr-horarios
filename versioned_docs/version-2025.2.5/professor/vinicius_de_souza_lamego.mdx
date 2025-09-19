@@ -11,7 +11,47 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Física II - 617",
+          "size": 2,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "AGO2025"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Física I - 460",
+          "size": 2,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "AGO2026A"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "Física III - 1084",
+          "size": 2,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "AGO2024"
+          ],
+          "time": "15:55 - 16:45",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quarta-Feira",
@@ -37,9 +77,35 @@ export const data = {
           ],
           "classroom": "laboratorio_de_fisica",
           "students": [
+            "EIN2025"
+          ],
+          "time": "08:20 - 09:10",
+          "color": ""
+        },
+        {
+          "subject": "Física 2 - 175",
+          "size": 1,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
             "EIN2024"
           ],
           "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Física 3 - 205",
+          "size": 2,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "EIN2024"
+          ],
+          "time": "10:15 - 11:05",
           "color": ""
         }
       ]
@@ -47,6 +113,19 @@ export const data = {
     {
       "dayName": "Quinta-Feira",
       "dayClasses": [
+        {
+          "subject": "Física 4 - 224",
+          "size": 2,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "EIN2023"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
         {
           "subject": "Física 1 - 125",
           "size": 2,
@@ -58,6 +137,19 @@ export const data = {
             "EIN2025"
           ],
           "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Física I - 460",
+          "size": 2,
+          "teachers": [
+            "Vinicius de Souza Lamego"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "AGO2026B"
+          ],
+          "time": "09:25 - 10:15",
           "color": ""
         }
       ]
@@ -138,13 +230,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Terça, das 13:30 às 14:30. | Sexta, das 13:30 às 14:30. | Quinta, das 13:30 às 14:30. | Quinta, das 19:00 às 20:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Vinicius de Souza Lamego
@@ -176,7 +262,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

@@ -22,6 +22,19 @@ export const data = {
           "color": ""
         },
         {
+          "subject": "Física III - 2456",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "COM2024"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
           "subject": "Física I - 2325",
           "size": 2,
           "teachers": [
@@ -32,6 +45,19 @@ export const data = {
             "COM2025"
           ],
           "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Física I - 2561",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "13:10 - 14:00",
           "color": ""
         },
         {
@@ -95,11 +121,78 @@ export const data = {
     },
     {
       "dayName": "Quarta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Física II - 2567",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "sala_01_-_cr_toledo",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Física III - 2547",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "sala_02_-_cr_toledo",
+          "students": [
+            "IIW2024B"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Física Aplicada - 144",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "",
+          "students": [
+            "ELM2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Física II - 2421",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "COM2025"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "Física I - 2325",
+          "size": 2,
+          "teachers": [
+            "Vitor Prestes Luzio"
+          ],
+          "classroom": "laboratorio_de_fisica",
+          "students": [
+            "COM2026"
+          ],
+          "time": "15:55 - 16:45",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Sexta-Feira",
@@ -177,13 +270,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Quarta, das 14:00 às 16:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Vitor Prestes Luzio
@@ -215,7 +302,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

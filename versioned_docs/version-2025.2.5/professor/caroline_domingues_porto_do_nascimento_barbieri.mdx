@@ -7,7 +7,21 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Lógica de programação - 1075",
+          "size": 2,
+          "teachers": [
+            "Caroline Domingues Porto do Nascimento Barbieri"
+          ],
+          "classroom": "laboratorio_de_informatica_c",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "15:55 - 16:45",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
@@ -48,6 +62,19 @@ export const data = {
       "dayName": "Quinta-Feira",
       "dayClasses": [
         {
+          "subject": "Lógica de programação - 2562",
+          "size": 2,
+          "teachers": [
+            "Caroline Domingues Porto do Nascimento Barbieri"
+          ],
+          "classroom": "laboratorio_de_informatica_c_-_cr_toledo",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Projeto Integrador I - 2574",
           "size": 2,
           "teachers": [
@@ -58,6 +85,32 @@ export const data = {
             "IIW2025B"
           ],
           "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Projeto Integrador I - 2574",
+          "size": 2,
+          "teachers": [
+            "Caroline Domingues Porto do Nascimento Barbieri"
+          ],
+          "classroom": "laboratorio_de_informatica_a_-_cr_toledo",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Apoio Presencial - 2529",
+          "size": 4,
+          "teachers": [
+            "Caroline Domingues Porto do Nascimento Barbieri"
+          ],
+          "classroom": "",
+          "students": [
+            "EADTMA2025"
+          ],
+          "time": "19:00 - 19:50",
           "color": ""
         }
       ]
@@ -76,6 +129,19 @@ export const data = {
             "IIW2025A"
           ],
           "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Apoio Presencial - 2529",
+          "size": 4,
+          "teachers": [
+            "Caroline Domingues Porto do Nascimento Barbieri"
+          ],
+          "classroom": "",
+          "students": [
+            "EADTMA2025"
+          ],
+          "time": "19:00 - 19:50",
           "color": ""
         }
       ]
@@ -138,13 +204,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Quarta, das 13:00 às 17:00. | Sexta, das 13:00 às 17:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Caroline Domingues Porto do Nascimento Barbieri
@@ -176,7 +236,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

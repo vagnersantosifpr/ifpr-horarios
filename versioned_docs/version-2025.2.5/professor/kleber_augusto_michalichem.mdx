@@ -7,7 +7,34 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Educação Física I - 2539",
+          "size": 2,
+          "teachers": [
+            "Kleber Augusto Michalichem"
+          ],
+          "classroom": "quadra_de_esportes_-_biopark",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Educação Física II - 1227",
+          "size": 2,
+          "teachers": [
+            "Kleber Augusto Michalichem"
+          ],
+          "classroom": "educacao_fisica_sala_1_b2",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "15:55 - 16:45",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
@@ -61,6 +88,19 @@ export const data = {
           "color": ""
         },
         {
+          "subject": "Educação Física II - 2540",
+          "size": 2,
+          "teachers": [
+            "Kleber Augusto Michalichem"
+          ],
+          "classroom": "quadra_de_esportes_-_biopark",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
           "subject": "Educação Física I - 457",
           "size": 1,
           "teachers": [
@@ -89,6 +129,19 @@ export const data = {
             "AGO2023"
           ],
           "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Educação Física I - 1072",
+          "size": 2,
+          "teachers": [
+            "Kleber Augusto Michalichem"
+          ],
+          "classroom": "educacao_fisica_sala_1_b2",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "09:25 - 10:15",
           "color": ""
         },
         {
@@ -164,13 +217,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Terça, das 10:00 às 12:00. | Quarta, das 14:00 às 16:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Kleber Augusto Michalichem
@@ -202,7 +249,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

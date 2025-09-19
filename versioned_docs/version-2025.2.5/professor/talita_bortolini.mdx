@@ -9,6 +9,19 @@ export const data = {
       "dayName": "Segunda-Feira",
       "dayClasses": [
         {
+          "subject": "Língua Portuguesa e Literatura III - 2544",
+          "size": 2,
+          "teachers": [
+            "Talita Bortolini"
+          ],
+          "classroom": "sala_02_-_cr_toledo",
+          "students": [
+            "IIW2024B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
           "subject": "Língua Portuguesa e Literatura I - 2563",
           "size": 2,
           "teachers": [
@@ -20,12 +33,38 @@ export const data = {
           ],
           "time": "10:15 - 11:05",
           "color": ""
+        },
+        {
+          "subject": "Língua Portuguesa e Literatura II - 2565",
+          "size": 2,
+          "teachers": [
+            "Talita Bortolini"
+          ],
+          "classroom": "sala_01_-_cr_toledo",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "15:55 - 16:45",
+          "color": ""
         }
       ]
     },
     {
       "dayName": "Terça-Feira",
       "dayClasses": [
+        {
+          "subject": "Língua Portuguesa e Literatura I - 2563",
+          "size": 4,
+          "teachers": [
+            "Talita Bortolini"
+          ],
+          "classroom": "",
+          "students": [
+            "IIW2026B"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
         {
           "subject": "Língua Portuguesa e Literatura III - 2544",
           "size": 2,
@@ -61,6 +100,32 @@ export const data = {
     {
       "dayName": "Quinta-Feira",
       "dayClasses": [
+        {
+          "subject": "Língua Portuguesa e Literatura II - 2565",
+          "size": 2,
+          "teachers": [
+            "Talita Bortolini"
+          ],
+          "classroom": "sala_01_-_cr_toledo",
+          "students": [
+            "IIW2025B"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Língua Estrangeira Moderna - Espanhol - 2554",
+          "size": 1,
+          "teachers": [
+            "Talita Bortolini"
+          ],
+          "classroom": "sala_02_-_cr_toledo",
+          "students": [
+            "IIW2024B"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
         {
           "subject": "Língua Estrangeira Moderna - Espanhol - 2554",
           "size": 1,
@@ -165,13 +230,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "A ser definido.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Talita Bortolini
@@ -203,7 +262,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

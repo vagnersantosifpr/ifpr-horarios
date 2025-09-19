@@ -7,7 +7,21 @@ export const data = {
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Sociologia II - 1246",
+          "size": 1,
+          "teachers": [
+            "Everaldo Lorensetti"
+          ],
+          "classroom": "sala_16-2",
+          "students": [
+            "IIW2024A"
+          ],
+          "time": "11:05 - 11:55",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Terça-Feira",
@@ -23,6 +37,19 @@ export const data = {
             "IIW2023A"
           ],
           "time": "11:05 - 11:55",
+          "color": ""
+        },
+        {
+          "subject": "Sociologia II - 1246",
+          "size": 1,
+          "teachers": [
+            "Everaldo Lorensetti"
+          ],
+          "classroom": "sala_16-2",
+          "students": [
+            "IIW2024A"
+          ],
+          "time": "16:45 - 17:35",
           "color": ""
         }
       ]
@@ -51,7 +78,21 @@ export const data = {
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Sociologia - 2583",
+          "size": 3,
+          "teachers": [
+            "Everaldo Lorensetti"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        }
+      ]
     }
   ],
   "time": [
@@ -111,13 +152,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Diretor de Ensino, Pesquisa, Extensão e Inovação",
-    "officeHours": "Quinta, das 13:00 às 17:00.",
-    "workHours": "A ser definido.",
-    "notes": "Diretor de Ensino Pesquisa e Extensão, portaria do reitor 380/2024"
-  }
+  ]
 }
 
 # Everaldo Lorensetti
@@ -149,7 +184,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

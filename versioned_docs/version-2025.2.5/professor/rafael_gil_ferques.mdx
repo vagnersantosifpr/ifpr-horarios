@@ -1,34 +1,31 @@
----
-slug: /sala/educacao_fisica_sala_1_b2
----
 import { Grid } from "@site/src/components/Grid";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
 export const data = {
-  "title": "educacao_fisica_sala_1_b2",
+  "title": "Rafael Gil Ferques",
   "base": "",
   "weekClasses": [
     {
       "dayName": "Segunda-Feira",
-      "dayClasses": []
-    },
-    {
-      "dayName": "Terça-Feira",
       "dayClasses": [
         {
-          "subject": "Educação Física I - 1072",
+          "subject": "Projeto integrador I - 1078",
           "size": 2,
           "teachers": [
-            "Franciele Fernandes Baliero"
+            "Rafael Gil Ferques"
           ],
-          "classroom": "educacao_fisica_sala_1_b2",
+          "classroom": "laboratorio_de_informatica_c",
           "students": [
-            "IIW2025A"
+            "IIW2026A"
           ],
-          "time": "07:30 - 08:20",
+          "time": "10:15 - 11:05",
           "color": ""
         }
       ]
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": []
     },
     {
       "dayName": "Quarta-Feira",
@@ -36,7 +33,21 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Desenvolvimento Responsivo e Otimização de Sites - 1249",
+          "size": 2,
+          "teachers": [
+            "Rafael Gil Ferques"
+          ],
+          "classroom": "laboratorio_de_computacao_aplicada",
+          "students": [
+            "IIW2024A"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Sexta-Feira",
@@ -103,7 +114,7 @@ export const data = {
   ]
 }
 
-# educacao_fisica_sala_1_b2
+# Rafael Gil Ferques
 
 <div>
   {
@@ -118,3 +129,21 @@ export const data = {
     </BrowserOnly>
   }
 </div>
+
+<div style={{
+  border: '1px solid #ddd',
+  borderRadius: '8px',
+  padding: '16px',
+  marginTop: '24px',
+  backgroundColor: '#f9f9f9'
+}}>
+  <h2 style={{
+    borderBottom: '2px solid #ccc',
+    paddingBottom: '8px',
+    marginBottom: '16px'
+  }}>Informações do Docente</h2>
+  <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
+  <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
+  <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
+</div>
+

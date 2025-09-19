@@ -24,6 +24,19 @@ export const data = {
           ],
           "time": "09:25 - 10:15",
           "color": ""
+        },
+        {
+          "subject": "Administração de Sistemas Operacionais e Redes - 1236",
+          "size": 2,
+          "teachers": [
+            "Douglas Barbosa Sousa"
+          ],
+          "classroom": "laboratorio_de_computacao_aplicada",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "15:05 - 15:55",
+          "color": ""
         }
       ]
     },
@@ -73,7 +86,21 @@ export const data = {
     },
     {
       "dayName": "Quinta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Administração de Sistemas Operacionais e Redes - 1236",
+          "size": 2,
+          "teachers": [
+            "Douglas Barbosa Sousa"
+          ],
+          "classroom": "laboratorio_de_computacao_aplicada",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Sexta-Feira",
@@ -137,13 +164,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Quarta, das 14:00 às 17:00. | Quarta, das 18:00 às 19:00.",
-    "workHours": "A ser definido.",
-    "notes": "Coordenador do Curso de Análise e Desenvolvimento de Sistemas, portaria do reitor 126/2024"
-  }
+  ]
 }
 
 # Douglas Barbosa Sousa
@@ -175,7 +196,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

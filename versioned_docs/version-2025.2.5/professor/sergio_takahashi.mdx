@@ -38,7 +38,34 @@ export const data = {
     },
     {
       "dayName": "Terça-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Metrologia - 2590",
+          "size": 2,
+          "teachers": [
+            "Sérgio Takahashi"
+          ],
+          "classroom": "",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "Metrologia - 108",
+          "size": 2,
+          "teachers": [
+            "Sérgio Takahashi"
+          ],
+          "classroom": "laboratorio_de_metrologia_b4",
+          "students": [
+            "ELM2025"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
     },
     {
       "dayName": "Quarta-Feira",
@@ -62,6 +89,19 @@ export const data = {
       "dayName": "Quinta-Feira",
       "dayClasses": [
         {
+          "subject": "Desenho Técnico e Metrologia - 2585",
+          "size": 3,
+          "teachers": [
+            "Sérgio Takahashi"
+          ],
+          "classroom": "",
+          "students": [
+            "MEC2026"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
           "subject": "Desenho Técnico - 1529",
           "size": 3,
           "teachers": [
@@ -72,6 +112,19 @@ export const data = {
             "EIN2025 - Grupo B"
           ],
           "time": "09:25 - 10:15",
+          "color": ""
+        },
+        {
+          "subject": "Desenho Técnico - 132",
+          "size": 4,
+          "teachers": [
+            "Sérgio Takahashi"
+          ],
+          "classroom": "",
+          "students": [
+            "ELM2026"
+          ],
+          "time": "19:00 - 19:50",
           "color": ""
         },
         {
@@ -104,7 +157,21 @@ export const data = {
     },
     {
       "dayName": "Sexta-Feira",
-      "dayClasses": []
+      "dayClasses": [
+        {
+          "subject": "Metrologia - 1550",
+          "size": 1,
+          "teachers": [
+            "Sérgio Takahashi"
+          ],
+          "classroom": "laboratorio_de_metrologia_b4",
+          "students": [
+            "EIN2025"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        }
+      ]
     }
   ],
   "time": [
@@ -164,13 +231,7 @@ export const data = {
       "time": "21:50 - 22:40",
       "size": 50
     }
-  ],
-  "teacherInfo": {
-    "role": "Professor(a) EBTT / Pesquisador(a)",
-    "officeHours": "Quarta, das 13:00 às 17:00.",
-    "workHours": "A ser definido.",
-    "notes": "Nenhuma observação."
-  }
+  ]
 }
 
 # Sérgio Takahashi
@@ -202,7 +263,7 @@ export const data = {
     marginBottom: '16px'
   }}>Informações do Docente</h2>
   <p><strong>Cargo/Função:</strong> {data.teacherInfo.role}</p>
-  <p><strong>Horário de Atividades do Cargo/Função:</strong> {data.teacherInfo.workHours}</p>
   <p><strong>Horário de Atendimento aos Alunos:</strong> {data.teacherInfo.officeHours}</p>
   <p><strong>Observações:</strong> {data.teacherInfo.notes}</p>
 </div>
+

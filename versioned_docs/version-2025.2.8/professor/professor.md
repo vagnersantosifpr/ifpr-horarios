@@ -23,7 +23,7 @@ sidebar_position: 1
 - [Josiane Paula Maltauro - josiane.maltauro@ifpr.edu.br](professor/josiane_paula_maltauro)
 - [Simone de Miranda](professor/simone_de_miranda)
 
-## Automação
+## Automação Industrial
 - [Mario Eduardo de Barros Gomes Nunes da Silva - mario.silva@ifpr.edu.br](professor/mario_eduardo_de_barros_gomes_e_nunes_da_silva)
 
 ## Biologia

@@ -9,7 +9,7 @@ sidebar_position: 1
 </p>
 
 
-### Horários IFPR Assis Chateaubriand - Versão 2026.1.2 (02/02/2026)
+### Horários IFPR Assis Chateaubriand - Versão 2026.1.1 (09/02/2026)
 <p>
   Versão de simulação da distribuição dos Coordenadores de Curso
 </p>
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 | Versão                              |   Início   |    Fim     |
 | ----------------------------------- | :--------: | :--------: |
-| 2026.1.v1                           | 02/02/2026 |   Atual    |
+| 2026.1.v1                           | 09/02/2026 |   Atual    |
 
 
 

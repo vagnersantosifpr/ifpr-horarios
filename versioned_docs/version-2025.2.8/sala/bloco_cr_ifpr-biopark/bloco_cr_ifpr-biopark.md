@@ -2,8 +2,7 @@
 sidebar_position: 1
 ---
 
-# Bloco CR Toledo - Biopark
-
+# Bloco Centro de Referência Toledo
 - [Sala 1](sala/sala_01_-_cr_toledo)
 - [Sala 2](sala/sala_02_-_cr_toledo)
 - [Sala 3](sala/sala_03_-_cr_toledo)

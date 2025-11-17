@@ -5,13 +5,13 @@ sidebar_position: 1
 # Home
 
 <p>
-  Seja bem-vindo ao novo sistema web para o quadro de horários do Instituto Federal do Paraná - Campus Assis Chateaubriand. 
+  Seja bem-vindo ao sistema de publicação da grade de horários do Instituto Federal do Paraná - Campus Assis Chateaubriand. 
 </p>
 
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.1 (09/02/2026)
 <p>
-  Versão de simulação da distribuição dos Coordenadores de Curso
+  Versão consolidada da distribuição de aulas dos Colegiados de  Curso para 2026.1
 </p>
 
 

@@ -17,7 +17,7 @@ sidebar_position: 1
 - [Josiane Paula Maltauro](professor/josiane_paula_maltauro)
 
 ## Automação
-- [Mario Eduardo de Barros Gomes Nunes da Silva](professor/mario_eduardo_de_barros_gomes_nunes_da_silva)
+- [Mario Eduardo de Barros Gomes Nunes da Silva](professor/mario_eduardo_de_barros_gomes_e_nunes_da_silva)
 
 ## Biologia
 - [Eliana Pelicon Pereira Figueira](professor/eliana_pelicon_pereira_figueira)

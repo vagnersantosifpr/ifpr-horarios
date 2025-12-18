@@ -9,6 +9,5 @@ sidebar_position: 1
 - [Iiw 2026a](iiw2026a)
 
 # Acessar disciplinas ofertadas em regime de dependência
-- [Iiw 2023A - DP](iiw2023a-dp)
 - [Iiw 2024A - DP](iiw2024a-dp)
 - [Iiw 2025A - DP](iiw2025a-dp)

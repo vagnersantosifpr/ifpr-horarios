@@ -79,6 +79,9 @@ sidebar_position: 1
 ## Programação Básica - Formação Inicial e Continuada 
 - [FICPB 2026](turma/ficpb2025)
 
+# Especialização em Ensino de Ciências e Matemática
+- [ECM 2026](pcm2026)
+
 ## Curso de Aperfeiçoamento em Educação das Relações Étnico-Raciais (ERER) - IFPR UAB (Universidade Aberta do Brasil)
 - [ERE2025](turma/erer2025)
 

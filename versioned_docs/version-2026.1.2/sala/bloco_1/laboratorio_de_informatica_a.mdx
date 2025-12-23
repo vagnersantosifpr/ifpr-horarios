@@ -1,0 +1,203 @@
+---
+slug: /sala/laboratorio_de_informatica_a
+sidebar_label: Laboratório de Informatica A
+---
+import { Grid } from "@site/src/components/Grid";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+export const data = {
+  "title": "Laboratório de Informatica A",
+  "base": "Bloco 1",
+  "weekClasses": [
+    {
+      "dayName": "Segunda-Feira",
+      "dayClasses": [
+        {
+          "subject": "Laboratório de Banco de Dados - 1238",
+          "size": 2,
+          "teachers": [
+            "Douglas Barbosa Sousa",
+            "Álvaro José de Almeida Araújo IIW"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Marketing e Comportamento do Consumidor - 1511",
+          "size": 2,
+          "teachers": [
+            "Keyla Christina Almeida Portela"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "TGC2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": [
+        {
+          "subject": "Projeto Integrador II - 1239",
+          "size": 2,
+          "teachers": [
+            "Alexandre Rodrigues Monge"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "IIW2025A"
+          ],
+          "time": "11:05 - 11:55",
+          "color": ""
+        },
+        {
+          "subject": "Informática e Automação Comercial - 2398",
+          "size": 2,
+          "teachers": [
+            "Vagner Simões Santos"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "TGC2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quarta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Marketing e Comportamento do Consumidor - 1511",
+          "size": 2,
+          "teachers": [
+            "Keyla Christina Almeida Portela"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "TGC2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "Plano de Marketing - 1498",
+          "size": 2,
+          "teachers": [
+            "Keyla Christina Almeida Portela"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "TGC2025"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quinta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Orientação de Estágio Supervisionado - 1097",
+          "size": 1,
+          "teachers": [
+            "Leiliane Cristine de Souza"
+          ],
+          "classroom": "Laboratório de Informatica A",
+          "students": [
+            "AGO2024"
+          ],
+          "time": "11:05 - 11:55",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Sexta-Feira",
+      "dayClasses": []
+    }
+  ],
+  "time": [
+    {
+      "time": "07:30 - 08:20",
+      "size": 50
+    },
+    {
+      "time": "08:20 - 09:10",
+      "size": 50
+    },
+    {
+      "time": "09:25 - 10:15",
+      "size": 50
+    },
+    {
+      "time": "10:15 - 11:05",
+      "size": 50
+    },
+    {
+      "time": "11:05 - 11:55",
+      "size": 50
+    },
+    {
+      "time": "13:10 - 14:00",
+      "size": 50
+    },
+    {
+      "time": "14:00 - 14:50",
+      "size": 50
+    },
+    {
+      "time": "15:05 - 15:55",
+      "size": 50
+    },
+    {
+      "time": "15:55 - 16:45",
+      "size": 50
+    },
+    {
+      "time": "16:45 - 17:35",
+      "size": 50
+    },
+    {
+      "time": "19:00 - 19:50",
+      "size": 50
+    },
+    {
+      "time": "19:50 - 20:40",
+      "size": 50
+    },
+    {
+      "time": "21:00 - 21:50",
+      "size": 50
+    },
+    {
+      "time": "21:50 - 22:40",
+      "size": 50
+    }
+  ]
+}
+
+# Laboratório de Informatica A
+
+<div>
+  {
+    <BrowserOnly>
+      {() => (
+        <Grid
+          title={data.title}
+          weekClasses={data.weekClasses}
+          time={data.time}
+        />
+      )}
+    </BrowserOnly>
+  }
+</div>

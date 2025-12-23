@@ -1,0 +1,226 @@
+---
+slug: /turma/ein2025-dp
+sidebar_label: EIN2025-DP
+---
+import { Grid } from "@site/src/components/Grid";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+export const data = {
+  "title": "EIN2025-DP",
+  "base": "EIN",
+  "weekClasses": [
+    {
+      "dayName": "Segunda-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": [
+        {
+          "subject": "DESENHO TÉCNICO",
+          "size": 1,
+          "teachers": [
+            "Docente DP Mecânica"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "LÍNGUA ESTRANGEIRA MODERNA - ESPANHOL",
+          "size": 1,
+          "teachers": [
+            "Docente DP Letras"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "LÍNGUA PORTUGUESA I",
+          "size": 1,
+          "teachers": [
+            "Docente DP Letras"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "SOCIOLOGIA I",
+          "size": 1,
+          "teachers": [
+            "Docente DP Sociologia"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "TECNOLOGIA DOS MATERIAIS",
+          "size": 1,
+          "teachers": [
+            "Docente DP Mecânica"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "CÁLCULO MECÂNICO",
+          "size": 1,
+          "teachers": [
+            "Docente DP Mecânica"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "14:00 - 14:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quarta-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Quinta-Feira",
+      "dayClasses": [
+        {
+          "subject": "FILOSOFIA I",
+          "size": 1,
+          "teachers": [
+            "Docente DP Filosofia"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "FISICA I",
+          "size": 1,
+          "teachers": [
+            "Docente DP Física"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        },
+        {
+          "subject": "QUÍMICA I",
+          "size": 1,
+          "teachers": [
+            "Docente DP Química"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "EIN2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Sexta-Feira",
+      "dayClasses": []
+    }
+  ],
+  "time": [
+    {
+      "time": "07:30 - 08:20",
+      "size": 50
+    },
+    {
+      "time": "08:20 - 09:10",
+      "size": 50
+    },
+    {
+      "time": "09:25 - 10:15",
+      "size": 50
+    },
+    {
+      "time": "10:15 - 11:05",
+      "size": 50
+    },
+    {
+      "time": "11:05 - 11:55",
+      "size": 50
+    },
+    {
+      "time": "13:10 - 14:00",
+      "size": 50
+    },
+    {
+      "time": "14:00 - 14:50",
+      "size": 50
+    },
+    {
+      "time": "15:05 - 15:55",
+      "size": 50
+    },
+    {
+      "time": "15:55 - 16:45",
+      "size": 50
+    },
+    {
+      "time": "16:45 - 17:35",
+      "size": 50
+    },
+    {
+      "time": "19:00 - 19:50",
+      "size": 50
+    },
+    {
+      "time": "19:50 - 20:40",
+      "size": 50
+    },
+    {
+      "time": "21:00 - 21:50",
+      "size": 50
+    },
+    {
+      "time": "21:50 - 22:40",
+      "size": 50
+    }
+  ]
+}
+
+# EIN2025-DP
+
+<div>
+  {
+    <BrowserOnly>
+      {() => (
+        <Grid
+          title={data.title}
+          weekClasses={data.weekClasses}
+          time={data.time}
+        />
+      )}
+    </BrowserOnly>
+  }
+</div>

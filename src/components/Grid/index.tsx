@@ -1,5 +1,9 @@
 import React, { createContext, useEffect, useReducer, useRef } from 'react'
 
+// 1. Importe o hook de versão do Docusaurus
+import { useDocsVersion } from '@docusaurus/plugin-content-docs/client'
+
+
 import {
   settingsReducer,
   TimetableViewType,
@@ -22,6 +26,7 @@ import { createLinkToEachClass } from '@site/src/utils/create-link-to-each-class
 
 interface GridProps {
   title?: string
+  version?: string // <--- 1. Nova prop adicionada
   time: Time[]
   weekClasses: Days[]
   textFooter?: string
@@ -54,6 +59,11 @@ export const GridContext = createContext({} as GridContextType)
 
 export function Grid({ title, time, weekClasses, textFooter }: GridProps) {
   // console.log(weekClasses)
+
+  // 2. Pegando a versão ativa dinamicamente
+  // Isso vai pegar o "label" definido no seu docusaurus.config.js (ex: "2026.1.v1 (Atual)")
+  const docsVersion = useDocsVersion()
+  const versionLabel = docsVersion.label 
 
   const [settingsState, dispatch] = useReducer(
     settingsReducer,
@@ -120,6 +130,7 @@ export function Grid({ title, time, weekClasses, textFooter }: GridProps) {
     <GridContext.Provider
       value={{
         title,
+        version: versionLabel, // <--- 3. Passando version para o contexto (opcional, mas recomendado)
         timeChanged,
         weekClassesChanged,
         timetableView,
@@ -136,6 +147,7 @@ export function Grid({ title, time, weekClasses, textFooter }: GridProps) {
         <Header />
         <Sidebar />
         <Timetable />
+
         {/* {textFooter ? <Footer textFooter={textFooter} /> : ''} */}
       </GridContainer>
     </GridContext.Provider>

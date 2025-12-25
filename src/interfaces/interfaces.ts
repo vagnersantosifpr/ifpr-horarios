@@ -30,6 +30,7 @@ export interface Days {
 
 export interface GridContextType {
   title: string
+  version: string
   timeChanged: Time[]
   weekClassesChanged: Days[]
   timeInitial: Time[]

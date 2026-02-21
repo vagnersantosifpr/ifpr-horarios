@@ -11,9 +11,9 @@ sidebar_position: 1
 - [Ago 2026B](turma/ago2026b)
 
 # Agropecuária - Acessar disciplinas ofertadas em regime de dependência
-- [AGO 2023 - DP](ago2023-dp)
-- [AGO 2024 - DP](ago2024-dp)
-- [AGO 2025 - DP](ago2025-dp)
+- [AGO 2023 - DP](turma/ago2023-dp)
+- [AGO 2024 - DP](turma/ago2024-dp)
+- [AGO 2025 - DP](turma/ago2025-dp)
 
 ## Comércio - Técnico Integrado ao Ensino Médio
 - [Com 2024](turma/com2024)
@@ -21,9 +21,9 @@ sidebar_position: 1
 - [Com 2026](turma/com2026)
 
 # Comércio - Acessar disciplinas ofertadas em regime de dependência
-- [Com 2023 - DP](com2023-dp)
-- [Com 2024 - DP](com2024-dp)
-- [Com 2025 - DP](com2025-dp)
+- [Com 2023 - DP](turma/com2023-dp)
+- [Com 2024 - DP](turma/com2024-dp)
+- [Com 2025 - DP](turma/com2025-dp)
 
 
 ## Eletromecânica - Técnico Integrado ao Ensino Médio
@@ -32,10 +32,10 @@ sidebar_position: 1
 - [Ein 2025](turma/ein2025)
 
 # Eletromecânica - Acessar disciplinas ofertadas em regime de dependência
-- [Ein 2022 - DP](ein2022-dp)
-- [Ein 2023 - DP](ein2023-dp)
-- [Ein 2024 - DP](ein2024-dp)
-- [Ein 2025 - DP](ein2025-dp)
+- [Ein 2022 - DP](turma/ein2022-dp)
+- [Ein 2023 - DP](turma/ein2023-dp)
+- [Ein 2024 - DP](turma/ein2024-dp)
+- [Ein 2025 - DP](turma/ein2025-dp)
 
 ## Informática para Internet (Campus) - Técnico Integrado ao Ensino Médio
 - [Iiw 2024a](turma/iiw2024a)
@@ -43,8 +43,8 @@ sidebar_position: 1
 - [Iiw 2026a](turma/iiw2026a)
 
 # Informática para Internet (Campus) - Acessar disciplinas ofertadas em regime de dependência
-- [Iiw 2024A - DP](iiw2024a-dp)
-- [Iiw 2025A - DP](iiw2025a-dp)
+- [Iiw 2024A - DP](turma/iiw2024a-dp)
+- [Iiw 2025A - DP](turma/iiw2025a-dp)
 
 
 ## Informática para Internet (CR Toledo) - Técnico Integrado ao Ensino Médio
@@ -53,8 +53,8 @@ sidebar_position: 1
 - [Iiw 2026b](turma/iiw2026b)
 
 # Informática para Internet (CR Toledo) - Acessar disciplinas ofertadas em regime de dependência
-- [Iiw 2024B - DP](iiw2024b-dp)
-- [Iiw 2025B - DP](iiw2025b-dp)
+- [Iiw 2024B - DP](turma/iiw2024b-dp)
+- [Iiw 2025B - DP](turma/iiw2025b-dp)
 
 ## Agropecuária - Técnico Subsequente
 - [Agr 2025](turma/agr2025)
@@ -80,7 +80,7 @@ sidebar_position: 1
 - [FICPB 2026](turma/ficpb2025)
 
 # Especialização em Ensino de Ciências e Matemática
-- [ECM 2026](pcm2026)
+- [ECM 2026](turma/pcm2026)
 
 ## Curso de Aperfeiçoamento em Educação das Relações Étnico-Raciais (ERER) - IFPR UAB (Universidade Aberta do Brasil)
 - [ERE2025](turma/erer2025)

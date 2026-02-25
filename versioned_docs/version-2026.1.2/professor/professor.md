@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Administração
 - [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
 - [Leocadia Candido da Silva](professor/leocadia_candido_da_silva)
-- [Daiane Cristina da Silva](professor/daiane_cristina_da_silva)
+- [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)
 
 ## Agronomia
 - [Diego Armando Amaro da Silva - diego.silva@ifpr.edu.br](professor/diego_armando_amaro_da_silva)
@@ -55,6 +55,7 @@ sidebar_position: 1
 - [Caroline Domingues Porto do Nascimento Barbieri - caroline.barbieri@ifpr.edu.br](professor/caroline_domingues_porto_do_nascimento_barbieri)
 
 ## Filosofia
+- [Fabio Antonio da Silva](professor/fabio_antonio_da_silva)
 - [Jose Jurandir Pereira Junior - jose.jurandir@ifpr.edu.br](professor/jose_jurandir_pereira_junior)
 - [Jose Provetti Junior - jose.provetti@ifpr.edu.br](professor/jose_provetti_junior)
 
@@ -108,7 +109,6 @@ sidebar_position: 1
 ## Português e Inglês
 - [Celina de Oliveira Barbosa Gomes - celina.gomes@ifpr.edu.br](professor/celina_de_oliveira_barbosa_gomes)
 - [Katia Cristiane Kobus Novaes - katia.novaes@ifpr.edu.br](professor/katia_cristiane_kobus_novaes)
-- [Patricia Denicolo David Prati - patricia.preti@ifpr.edu.br](professor/patricia_denicolo_david_prati)
 - [Andrey Felipe Martins - andrey.martins@ifpr.edu.br](professor/andrey_felipe_martins)
 
 
@@ -125,7 +125,7 @@ sidebar_position: 1
 - [Olavo Henrique Vieira Veiga - olavo.veiga@ifpr.edu.br](professor/olavo_henrique_vieira_veiga)
 
 ## Veterinária
-### Marcos Rogerio Oliveira - marcos.rogerio@ifpr.edu.br (professor/marcos_rogerio_oliveira)
+- [Marcos Rogerio Oliveira - marcos.rogerio@ifpr.edu.br](professor/marcos_rogerio_oliveira)
 
 ## Zootecnia
 - [Leiliane Cristine de Souza - leiliane.souza@ifpr.edu.br](professor/leiliane_cristine_de_souza)

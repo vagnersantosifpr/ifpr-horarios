@@ -1,0 +1,229 @@
+---
+slug: /turma/tai2026
+sidebar_label: TAI2026
+---
+import { Grid } from "@site/src/components/Grid";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+export const data = {
+  "title": "TAI2026",
+  "base": "TAI",
+  "weekClasses": [
+    {
+      "dayName": "Segunda-Feira",
+      "dayClasses": [
+        {
+          "subject": "Desenho Técnico - CAD - 2595",
+          "size": 4,
+          "teachers": [
+            "Darlan Roque Dapieve"
+          ],
+          "classroom": "laboratorio_de_computacao_aplicada",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": [
+        {
+          "subject": "Algoritmos de Programação - 2593",
+          "size": 2,
+          "teachers": [
+            "Alex Miyamoto Mussi"
+          ],
+          "classroom": "laboratorio_de_informatica_c",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "Segurança e Saúde no Trabalho - 2594",
+          "size": 2,
+          "teachers": [
+            "Wylliam Salviano Gongora"
+          ],
+          "classroom": "sala_15-2",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quarta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Pré-Cálculo - 2588",
+          "size": 2,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "laboratorio_de_informatica_c",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "Introdução à Tecnologia em Automação Industrial - 2592",
+          "size": 2,
+          "teachers": [
+            "Mario Eduardo de Barros Gomes e Nunes da Silva"
+          ],
+          "classroom": "sala_15-2",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quinta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Ciências dos Materiais - 2596",
+          "size": 2,
+          "teachers": [
+            "Darlan Roque Dapieve"
+          ],
+          "classroom": "sala_15-2",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "Instrumentos e Medidas Elétricas - 2591",
+          "size": 2,
+          "teachers": [
+            "Mario Eduardo de Barros Gomes e Nunes da Silva"
+          ],
+          "classroom": "sala_15-2",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Sexta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Pré-Cálculo - 2588",
+          "size": 2,
+          "teachers": [
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "laboratorio_de_computacao_aplicada",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "Algoritmos de Programação - 2593",
+          "size": 2,
+          "teachers": [
+            "Alex Miyamoto Mussi"
+          ],
+          "classroom": "laboratorio_de_informatica_c",
+          "students": [
+            "TAI2026"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    }
+  ],
+  "time": [
+    {
+      "time": "07:30 - 08:20",
+      "size": 50
+    },
+    {
+      "time": "08:20 - 09:10",
+      "size": 50
+    },
+    {
+      "time": "09:25 - 10:15",
+      "size": 50
+    },
+    {
+      "time": "10:15 - 11:05",
+      "size": 50
+    },
+    {
+      "time": "11:05 - 11:55",
+      "size": 50
+    },
+    {
+      "time": "13:10 - 14:00",
+      "size": 50
+    },
+    {
+      "time": "14:00 - 14:50",
+      "size": 50
+    },
+    {
+      "time": "15:05 - 15:55",
+      "size": 50
+    },
+    {
+      "time": "15:55 - 16:45",
+      "size": 50
+    },
+    {
+      "time": "16:45 - 17:35",
+      "size": 50
+    },
+    {
+      "time": "19:00 - 19:50",
+      "size": 50
+    },
+    {
+      "time": "19:50 - 20:40",
+      "size": 50
+    },
+    {
+      "time": "21:00 - 21:50",
+      "size": 50
+    },
+    {
+      "time": "21:50 - 22:40",
+      "size": 50
+    }
+  ]
+}
+
+# TAI2026
+
+<div>
+  {
+    <BrowserOnly>
+      {() => (
+        <Grid
+          title={data.title}
+          weekClasses={data.weekClasses}
+          time={data.time}
+        />
+      )}
+    </BrowserOnly>
+  }
+</div>

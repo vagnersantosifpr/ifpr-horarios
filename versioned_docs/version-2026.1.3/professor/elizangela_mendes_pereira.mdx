@@ -1,0 +1,194 @@
+---
+sidebar_label: 'Elizangela Mendes Pereira'
+---
+
+import { Grid } from "@site/src/components/Grid";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+export const data = {
+  "title": "Elizangela Mendes Pereira",
+  "base": "",
+  "weekClasses": [
+    {
+      "dayName": "Segunda-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": [
+        {
+          "subject": "Matemática I - 1064",
+          "size": 2,
+          "teachers": [
+            "Elizangela Mendes Pereira",
+            "Daiane Cristina da Silva"
+          ],
+          "classroom": "sala_16-2",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Matemática II - 2423",
+          "size": 2,
+          "teachers": [
+            "Elenice Josefa Kolancko Setti",
+            "Elizangela Mendes Pereira"
+          ],
+          "classroom": "sala_5-1",
+          "students": [
+            "COM2025"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quarta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Matemática I - 1064",
+          "size": 2,
+          "teachers": [
+            "Elizangela Mendes Pereira",
+            "Daiane Cristina da Silva"
+          ],
+          "classroom": "sala_16-2",
+          "students": [
+            "IIW2026A"
+          ],
+          "time": "07:30 - 08:20",
+          "color": ""
+        },
+        {
+          "subject": "Matemática III - 1244",
+          "size": 2,
+          "teachers": [
+            "Elizangela Mendes Pereira",
+            "Jonatan Ismael Eisermann"
+          ],
+          "classroom": "laboratorio_de_informatica_a",
+          "students": [
+            "IIW2024A"
+          ],
+          "time": "10:15 - 11:05",
+          "color": ""
+        },
+        {
+          "subject": "Matemática I (506)",
+          "size": 2,
+          "teachers": [
+            "Elizangela Mendes Pereira"
+          ],
+          "classroom": "a_definir",
+          "students": [
+            "COM2025-DP"
+          ],
+          "time": "13:10 - 14:00",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quinta-Feira",
+      "dayClasses": []
+    },
+    {
+      "dayName": "Sexta-Feira",
+      "dayClasses": [
+        {
+          "subject": "Matemática II - 2423",
+          "size": 2,
+          "teachers": [
+            "Elenice Josefa Kolancko Setti",
+            "Elizangela Mendes Pereira"
+          ],
+          "classroom": "sala_5-1",
+          "students": [
+            "COM2025"
+          ],
+          "time": "09:25 - 10:15",
+          "color": ""
+        }
+      ]
+    }
+  ],
+  "time": [
+    {
+      "time": "07:30 - 08:20",
+      "size": 50
+    },
+    {
+      "time": "08:20 - 09:10",
+      "size": 50
+    },
+    {
+      "time": "09:25 - 10:15",
+      "size": 50
+    },
+    {
+      "time": "10:15 - 11:05",
+      "size": 50
+    },
+    {
+      "time": "11:05 - 11:55",
+      "size": 50
+    },
+    {
+      "time": "13:10 - 14:00",
+      "size": 50
+    },
+    {
+      "time": "14:00 - 14:50",
+      "size": 50
+    },
+    {
+      "time": "15:05 - 15:55",
+      "size": 50
+    },
+    {
+      "time": "15:55 - 16:45",
+      "size": 50
+    },
+    {
+      "time": "16:45 - 17:35",
+      "size": 50
+    },
+    {
+      "time": "19:00 - 19:50",
+      "size": 50
+    },
+    {
+      "time": "19:50 - 20:40",
+      "size": 50
+    },
+    {
+      "time": "21:00 - 21:50",
+      "size": 50
+    },
+    {
+      "time": "21:50 - 22:40",
+      "size": 50
+    }
+  ]
+}
+
+# Elizangela Mendes Pereira
+
+<div>
+  {
+    <BrowserOnly>
+      {() => (
+        <Grid
+          title={data.title}
+          weekClasses={data.weekClasses}
+          time={data.time}
+        />
+      )}
+    </BrowserOnly>
+  }
+</div>
+

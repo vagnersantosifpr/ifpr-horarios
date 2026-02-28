@@ -11,8 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.3 (01/03/2026)
 <p>
-  Versão com ajustes nos horários do CR Toledo
-  Despacho Permuta de horários IIW - CRT (4083294)
+  Versão com ajustes nos horários do CR Toledo com a o Permuta de horários IIW - CRT (Doc. SEI 4083294)
 </p>
 
 

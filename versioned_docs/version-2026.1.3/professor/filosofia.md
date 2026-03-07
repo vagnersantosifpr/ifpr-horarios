@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Filosofia
 
-## Professores
+## Docente(s)
 
 - [Fabio Antonio da Silva](fabio_antonio_da_silva)
 - [Jose Jurandir Pereira Junior](jose_jurandir_pereira_junior)

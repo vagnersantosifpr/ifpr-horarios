@@ -5,7 +5,7 @@ sidebar_position: 1
 # Agronomia
 
 
-## Professores
+## Docente(s)
 
 - [Diego Armando Amaro da Silva](diego_armando_amaro_da_silva)
 - [Elias Franco](elias_franco)

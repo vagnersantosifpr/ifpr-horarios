@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Matemática
 
-## Professores
+## Docente(s)
 
 - [Daiane Cristina da Silva](daiane_cristina_da_silva)
 - [Elenice Josefa Kolancko Setti](elenice_josefa_kolancko_setti)

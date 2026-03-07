@@ -5,7 +5,7 @@ sidebar_position: 1
 # Biologia
 
 
-## Professores
+## Docente(s)
 
 - [Eliana Pelicon Pereira Figueira](eliana_pelicon_pereira_figueira)
 - [Josiane Hammes](josiane_hammes)

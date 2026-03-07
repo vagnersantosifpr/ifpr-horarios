@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # História
 
-## Professores
+## Docente(s)
 
 - [Andre Alexandre Valentini](andre_alexandre_valentini)
 - [Jael dos Santos](jael_dos_santos)

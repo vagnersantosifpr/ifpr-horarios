@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Português e Inglês
 
-## Professores
+## Docente(s)
 
 - [Celina de Oliveira Barbosa Gomes](celina_de_oliveira_barbosa_gomes)
 - [Katia Cristiane Kobus Novaes](katia_cristiane_kobus_novaes)

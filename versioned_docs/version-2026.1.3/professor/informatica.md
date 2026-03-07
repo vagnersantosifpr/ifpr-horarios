@@ -5,7 +5,7 @@ sidebar_position: 1
 # Informática
 
 
-## Professores
+## Docente(s)
 
 - [Alexandre Rodrigues Monge](alexandre_rodrigues_monge)
 - [Alvaro Jose de Almeida Araujo](alvaro_jose_de_almeida_araujo)

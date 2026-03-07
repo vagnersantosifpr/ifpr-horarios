@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Elétrica
 
-## Professores
+## Docente(s)
 
 - [Alex Miyamoto Mussi](alex_miyamoto_mussi)
 - [Danilo Hungaro Micheletti](danilo_hungaro_micheletti)

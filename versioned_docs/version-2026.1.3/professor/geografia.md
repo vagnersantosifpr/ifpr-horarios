@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Geografia
 
-## Professores
+## Docente(s)
 
 - [Alexandre Roberto Valcarenghi](alexandre_roberto_valcarenghi)
 - [Jhones Donizetti Mendes](jhones_donizetti_mendes)

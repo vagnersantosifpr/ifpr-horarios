@@ -4,6 +4,6 @@ sidebar_position: 1
 
 # Veterinária
 
-## Professores
+## Docente(s)
 
 - [Marcos Rogerio Oliveira](marcos_rogerio_oliveira)

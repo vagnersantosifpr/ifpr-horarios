@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.4 (16/03/2026)
 <p>
-  Versão com ajustes nos horários com a Permuta de Horários AGO2024 (Doc. SEI 4108316) 
+  Versão com ajustes contemplando a Permuta de Horários AGO2024 (Doc. SEI 4108316) 
 </p>
 
 

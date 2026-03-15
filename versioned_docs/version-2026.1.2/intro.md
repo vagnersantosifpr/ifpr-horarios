@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.2 (23/02/2026)
 <p>
-  Versão consolidada da distribuição de aulas dos Colegiados de  Curso para 2026.1
+  Versão com ajustes contemplando as trocas de horário do colegiado de Tecnologia em Gestão Comercial
 </p>
 
 

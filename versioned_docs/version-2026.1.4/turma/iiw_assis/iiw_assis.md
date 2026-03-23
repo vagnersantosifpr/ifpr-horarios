@@ -11,3 +11,8 @@ sidebar_position: 1
 # Acessar disciplinas ofertadas em regime de dependência
 - [Iiw 2024A - DP](iiw2024a-dp)
 - [Iiw 2025A - DP](iiw2025a-dp)
+
+# Acessar horário de atendimento ao aluno
+- [Iiw 2024A - AA](iiw2024a-aa)
+- [Iiw 2025A - AA](iiw2025a-aa)
+- [Iiw 2026A - AA](iiw2025a-aa)

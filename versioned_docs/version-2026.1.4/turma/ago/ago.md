@@ -17,3 +17,8 @@ sidebar_position: 1
 - [AGO 2023 - DP](ago2023-dp)
 - [AGO 2024 - DP](ago2024-dp)
 - [AGO 2025 - DP](ago2025-dp)
+
+# Acessar horário de atendimento ao aluno
+- [AGO 2023 - AA](ago2023-aa)
+- [AGO 2024 - AA](ago2024-aa)
+- [AGO 2025 - AA](ago2025-aa)

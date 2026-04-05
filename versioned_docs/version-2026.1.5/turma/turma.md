@@ -96,3 +96,7 @@ sidebar_position: 1
 
 ## Técnico em Meio Ambiente EAD (TMAEAD) - IFPR (Campus Assis Chateaubriand)
 - [TMAEAD2025](turma/eadtma2025)
+
+## PIF - Formação do Partiu IF
+- [PIF 2026](turma/pif2026)
+

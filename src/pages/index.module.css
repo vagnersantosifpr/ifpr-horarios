@@ -3,44 +3,131 @@
  * and scoped locally.
  */
 
+/* === Hero Banner === */
 .heroBanner {
-  padding: 4rem 0;
+  padding: 5rem 0 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, #0d5c28 0%, #1a8a3e 40%, #23a94e 80%, #2bc05a 100%);
+  color: #ffffff;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at 30% 50%, rgba(43, 192, 90, 0.15) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 20%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+  animation: heroShimmer 12s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes heroShimmer {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(2%, -1%) rotate(1deg); }
+  66% { transform: translate(-1%, 2%) rotate(-0.5deg); }
+}
+
+.heroBanner :global(.hero__title) {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  letter-spacing: -0.02em;
+  position: relative;
+  z-index: 1;
+  animation: fadeSlideUp 0.7s ease-out;
+}
+
+.heroBanner :global(.hero__subtitle) {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 1.15rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0.75rem auto 0;
+  line-height: 1.6;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+  animation: fadeSlideUp 0.7s ease-out 0.15s both;
+  font-style: italic;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 3rem 1.5rem 2.5rem;
+  }
+
+  .heroBanner :global(.hero__title) {
+    font-size: 1.8rem;
+  }
+
+  .heroBanner :global(.hero__subtitle) {
+    font-size: 1rem;
   }
 }
 
+/* === Botões === */
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
+/* === Announcement Section === */
 .announcement {
   font-weight: bold;
-  font-size: 24px;
-  padding: 48px;
+  font-size: 1.25rem;
+  padding: 3rem 2rem;
   margin: 0 auto;
   text-align: center;
-  /* background-color: #26b946; */
+  position: relative;
+  overflow: hidden;
 }
 
 .announcementDark {
-  /* background-color: #20232a; */
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
   color: #fff;
-  /* Reapply the primary color, because it has been locally overridden as
-   * the dark theme color */
-  /* --ifm-link-color: var(--ifm-color-primary); */
 }
 
 .announcementInner {
   margin: 0 auto;
   max-width: 768px;
+  position: relative;
+  z-index: 1;
+  animation: fadeSlideUp 0.6s ease-out 0.3s both;
+}
+
+/* === Section + Alt === */
+.section {
+  padding: 4rem 0;
+}
+
+.sectionAlt {
+  background: linear-gradient(180deg, rgba(26, 138, 62, 0.03) 0%, rgba(26, 138, 62, 0.06) 100%);
+}
+
+[data-theme="dark"] .sectionAlt {
+  background: linear-gradient(180deg, rgba(26, 138, 62, 0.04) 0%, rgba(26, 138, 62, 0.08) 100%);
+}
+
+/* === Courses Section === */
+.coursesSection {
+  margin-top: 1rem;
 }

@@ -13,7 +13,7 @@ export function Header() {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          lineHeight: '1.2' // Aproxima as linhas para não ficar muito alto
+          lineHeight: '1.2',
         }}
       >
         <strong style={{ fontSize: '1.1rem', marginBottom: '2px' }}>
@@ -21,19 +21,7 @@ export function Header() {
         </strong>
 
         {version && (
-          <span
-            style={{
-              fontSize: '0.9rem',
-              color: '#555',
-              background: 'rgba(255, 255, 255, 0.5)', // Um fundo sutil se o header for cinza
-              padding: '2px 8px',
-              borderRadius: '12px',
-              fontWeight: 600,
-              marginTop: '4px',
-              border: '1px solid rgba(0,0,0,0.05)'
-
-            }}
-          >
+          <span className="version-badge">
             {version}
           </span>
         )}

@@ -14,7 +14,7 @@ const FeatureList = [
     Svg: require('@site/static/img/vetor2.svg').default,
     description: (
       <>
-        O horário foi projetado desde o início para ser facilmente visualizado e 
+        O horário foi projetado desde o início para ser facilmente visualizado e
         usado por alunos, professores e toda comunidade.
       </>
     ),
@@ -25,7 +25,7 @@ const FeatureList = [
     description: (
       <>
         O horário é focado na praticidade para consulta do dia-a-dia.
-        Verifique a distribuição de aulas por <code>turmas</code>, 
+        Verifique a distribuição de aulas por <code>turmas</code>,
         <code>professores</code> e <code>cursos</code>.
       </>
     ),
@@ -35,7 +35,7 @@ const FeatureList = [
     Svg: require('@site/static/img/vetor10.svg').default,
     description: (
       <>
-        Um trabalho feito em equipe por docentes do campus Assis Chateaubriand 
+        Um trabalho feito em equipe por docentes do campus Assis Chateaubriand
         com muito esmero e carinho.
       </>
     ),
@@ -45,22 +45,24 @@ const FeatureList = [
     Svg: require('@site/static/img/vetor9.svg').default,
     description: (
       <>
-        O horário está em constante melhoria, adaptando-se da melhor maneira as mudanças 
-        de rotina do campus .
+        O horário está em constante melhoria, adaptando-se da melhor maneira às mudanças
+        de rotina do campus.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--3')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className={styles.featureCard}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3 className={styles.featureTitle}>{title}</h3>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
       </div>
     </div>
   );

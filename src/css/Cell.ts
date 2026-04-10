@@ -13,17 +13,21 @@ export const Cell = styled.div<{ gridArea: string }>`
 
   padding: 0.4em;
 
-  /* border: 1px solid var(--border-cell); */
   border-radius: 0px;
 
   color: var(--text-cell);
   background-color: var(--background-cell);
 
-  /* box-shadow: 0px 0px 1px 1px var(--shadow); */
-
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', 'Poppins', sans-serif;
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 400;
+
+  .text-time {
+    color: var(--text-interval, #64748b);
+    font-size: 0.82em;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
 
   &.sidebar ~ &.sidebar:not(&.sidebar:nth-of-type(25)) {
     border-radius: 0px;

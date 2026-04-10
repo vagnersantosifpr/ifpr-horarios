@@ -19,7 +19,7 @@ export const ItemContent = styled.div<{ theme: ThemeProps }>`
   margin: 0 0px;
 
   border: 1px solid var(--border-cell);
-  border-radius: 5px;
+  border-radius: 6px;
 
   [data-theme='dark'] {
     border: 1px solid var(--ifm-color-black);
@@ -28,30 +28,35 @@ export const ItemContent = styled.div<{ theme: ThemeProps }>`
   color: var(--text-cell);
   background-color: ${(props) => props.theme.teacherBackground};
 
-  /* box-shadow: 0px 0px 1px 1px var(--shadow); */
-
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', 'Poppins', sans-serif;
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 400;
 
-  transition: all 0.3s;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
   word-break: break-word;
 
   &:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.88);
   }
 
   .subject,
   a {
     color: var(--text-cell-light);
+    transition: opacity 0.2s ease;
+  }
+
+  a:hover {
+    opacity: 0.85;
+    text-decoration: underline;
   }
 
   @media (min-width: 768px) {
     &:hover {
-      filter: brightness(0.8);
-      scale: 1.015;
+      filter: brightness(0.85);
+      transform: scale(1.02);
       z-index: 5;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     }
   }
 `

@@ -33,7 +33,7 @@ function TimetablesAnnouncement() {
     >
       <div className={styles.announcementInner}>
         <Link className="button button--primary button--lg" to="/docs/intro">
-          📅 Acessar Quadro de Horários
+          Acessar Quadro de Horários
         </Link>
       </div>
     </div>
@@ -50,13 +50,14 @@ function CourseSection() {
     <div className={clsx(styles.section, styles.sectionAlt)}>
       <div className="container">
         <Heading as="h2" className={clsx('margin-bottom--lg', 'text--center')}>
-          <h2>Acesso rápido aos iniciantes</h2>
+          <h2>Acesso rápido aos iniciante</h2>
         </Heading>
         <div className={clsx('row', styles.coursesSection)}>
           {courseColumns.map((courseItems, i) => (
             <div className="col col--4" key={i}>
               {courseItems.map((course) => (
                 <Course {...course} key={course.url} />
+                // <div>course.name</div>
               ))}
             </div>
           ))}
@@ -71,7 +72,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Quadro de Horários do IFPR Campus Assis Chateaubriand - Consulte horários de aulas por turmas, professores e cursos."
+      description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
       <main>

@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.2.1 (27/07/2026)
 <p>
-  Versão com alocação dos docentes das disciplinas do Noturno com regime semestral (Doc. SEI 999999999999) 
+  Versão com alocação dos docentes e as disciplinas do Noturno - Regime semestral (Doc. SEI 999999999999) 
 </p>
 
 

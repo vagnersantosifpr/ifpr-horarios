@@ -1,56 +1,121 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 html {
   height: auto !important;
 }
 
+/* ── Light Theme Variables ────────────────── */
 :root {
-  --text-link: #2ca202;
+  /* Docusaurus primary color scale (IFPR green) */
+  --ifm-color-primary: #237631;
+  --ifm-color-primary-dark: #1f6a2b;
+  --ifm-color-primary-darker: #1c6027;
+  --ifm-color-primary-darkest: #154a1e;
+  --ifm-color-primary-light: #278838;
+  --ifm-color-primary-lighter: #2a9040;
+  --ifm-color-primary-lightest: #32ab4c;
+
+  --ifm-color-danger: #d61927;
+
+
+
+  /* Schedule grid tokens */
+  --text-link: #237631;
   --text-link-hover: #134700;
   --text-interval: #666666;
   --text-cell: #2d3133;
   --text-cell-light: #d9d9d9;
-  --ifm-color-primary: #237631;
-  --ifm-color-danger: #d61927;
-
   --border-cell: #ffffff;
   --border-grid: #d9d9d9;
   --border-empty-box: #b8b8b8;
   --background-cell: #d9d9d9;
   --shadow: #00000080;
-
   --slider-track: #0000007a;
+
+  /* Premium design tokens */
+  --ifpr-surface-glass: rgba(255, 255, 255, 0.75);
+  --ifpr-surface-glass-border: rgba(35, 118, 49, 0.12);
+  --ifpr-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --ifpr-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --ifpr-shadow-colored: 0 4px 14px rgba(35, 118, 49, 0.28);
 
   --font-size-base: 16;
 }
 
+/* ── Dark Theme Variables ─────────────────── */
 [data-theme="dark"] {
+
+
   --border-cell: #1c1e21;
   --border-grid: #3b4042;
   --border-empty-box: #353a3c;
-
   --background-cell: #2d3133;
-
   --text-cell: #d9d9d9;
   --text-cell-light: #d9d9d9;
+
+  --ifpr-surface-glass: rgba(30, 34, 36, 0.8);
+  --ifpr-surface-glass-border: rgba(50, 171, 76, 0.18);
+  --ifpr-shadow-colored: 0 4px 14px rgba(50, 171, 76, 0.18);
 }
 
+/* ── Base Body ────────────────────────────── */
 body {
   -webkit-font-smoothing: antialiased;
-  /* width: 100vw; */
+  -moz-osx-font-smoothing: grayscale;
   font-family: "Poppins", sans-serif;
   height: auto !important;
   overflow-x: hidden !important;
 }
 
+/* ── Scrollbar ────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ifm-color-primary-lighter);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary);
+}
+
+/* ── Navbar ───────────────────────────────── */
 .navbar {
   box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.1);
 }
 
+/* ── Container ────────────────────────────── */
 .container {
   height: 100%;
 }
 
+/* ── Links ────────────────────────────────── */
+a {
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+/* ── Buttons ──────────────────────────────── */
+.button--primary {
+  transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--ifpr-shadow-colored) !important;
+}
+
+.button--primary:active {
+  transform: translateY(0);
+}
+
+/* ── Print — exportação da grade ──────────── */
 @media print {
   * {
     box-shadow: none;

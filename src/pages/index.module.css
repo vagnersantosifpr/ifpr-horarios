@@ -3,44 +3,162 @@
  * and scoped locally.
  */
 
+/* ── Hero Banner ──────────────────────────── */
 .heroBanner {
-  padding: 4rem 0;
+  padding: 5rem 0 4rem;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    #154a1e 0%,
+    #1c6027 30%,
+    #237631 65%,
+    #278839 100%
+  ) !important;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+/* Decorative glow — top right */
+.heroBanner::before {
+  content: "";
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.07) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+}
+
+/* Decorative glow — bottom left */
+.heroBanner::after {
+  content: "";
+  position: absolute;
+  bottom: -100px;
+  left: -60px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.05) 0%,
+    transparent 65%
+  );
+  pointer-events: none;
+}
+
+/* Title */
+.heroBanner :global(.hero__title) {
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -0.4px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+  animation: fadeSlideDown 0.55s ease both;
+}
+
+/* Tagline */
+.heroBanner :global(.hero__subtitle) {
+  font-weight: 300;
+  font-size: 1.05rem;
+  opacity: 0.88;
+  max-width: 580px;
+  margin: 0.75rem auto 0;
+  line-height: 1.65;
+  animation: fadeSlideDown 0.55s ease 0.1s both;
+}
+
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
+/* Tablet */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 3.5rem 1.5rem 2.5rem;
+  }
+  .heroBanner :global(.hero__title) {
+    font-size: 1.9rem;
+  }
+  .heroBanner :global(.hero__subtitle) {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .heroBanner {
+    padding: 2.5rem 1rem 2rem;
+  }
+  .heroBanner :global(.hero__title) {
+    font-size: 1.5rem;
+    letter-spacing: -0.2px;
+  }
+  .heroBanner :global(.hero__subtitle) {
+    font-size: 0.88rem;
+  }
+}
+
+/* ── Buttons ──────────────────────────────── */
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
+/* ── Announcement / CTA ───────────────────── */
 .announcement {
-  font-weight: bold;
-  font-size: 24px;
-  padding: 48px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 3.5rem 1.5rem;
   margin: 0 auto;
   text-align: center;
-  /* background-color: #26b946; */
+  background: linear-gradient(180deg, #f2fbf4 0%, #ffffff 100%);
+  border-bottom: 1px solid rgba(35, 118, 49, 0.1);
+}
+
+[data-theme="dark"] .announcement {
+  background: linear-gradient(180deg, #18261a 0%, #1b1d1f 100%);
+  border-bottom: 1px solid rgba(50, 171, 76, 0.12);
 }
 
 .announcementDark {
-  /* background-color: #20232a; */
-  color: #fff;
-  /* Reapply the primary color, because it has been locally overridden as
-   * the dark theme color */
-  /* --ifm-link-color: var(--ifm-color-primary); */
+  color: var(--ifm-color-primary);
+}
+
+[data-theme="dark"] .announcementDark {
+  color: #32ab4c;
 }
 
 .announcementInner {
   margin: 0 auto;
   max-width: 768px;
+}
+
+/* ── Sections ─────────────────────────────── */
+.section {
+  padding: 3rem 0;
+}
+
+.sectionAlt {
+  background-color: #f5fdf7;
+}
+
+[data-theme="dark"] .sectionAlt {
+  background-color: #1a2a1c;
+}
+
+.coursesSection {
+  margin-top: 1rem;
 }

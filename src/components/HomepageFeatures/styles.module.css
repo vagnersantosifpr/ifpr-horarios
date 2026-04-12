@@ -1,11 +1,86 @@
+/* ── Features Section ─────────────────────── */
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
+  align-items: stretch;
+  padding: 3.5rem 0;
   width: 100%;
 }
 
+/* ── Feature Card ─────────────────────────── */
+.featureCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.25rem 1.75rem;
+  border-radius: 14px;
+  border: 1px solid var(--ifpr-surface-glass-border, rgba(35, 118, 49, 0.1));
+  background: var(--ifpr-surface-glass, rgba(255, 255, 255, 0.7));
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: var(--ifpr-shadow-sm, 0 1px 4px rgba(0, 0, 0, 0.06));
+  margin-bottom: 1.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  animation: cardFadeIn 0.5s ease both;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 28px rgba(35, 118, 49, 0.14);
+}
+
+[data-theme="dark"] .featureCard {
+  background: rgba(33, 38, 42, 0.8);
+  border-color: rgba(50, 171, 76, 0.16);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme="dark"] .featureCard:hover {
+  box-shadow: 0 8px 28px rgba(50, 171, 76, 0.16);
+}
+
+/* ── SVG Icon Area ────────────────────────── */
+.featureSvgWrapper {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(35, 118, 49, 0.07) 0%,
+    rgba(35, 118, 49, 0.03) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  flex-shrink: 0;
+}
+
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 72px;
+  width: 72px;
+}
+
+/* ── Entrance Animation ───────────────────── */
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Responsive ───────────────────────────── */
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 2.5rem 1rem;
+  }
+
+  .featureCard {
+    margin-bottom: 1rem;
+  }
 }

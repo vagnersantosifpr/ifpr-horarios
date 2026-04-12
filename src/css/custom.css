@@ -17,7 +17,17 @@ html {
 
   --ifm-color-danger: #d61927;
 
-
+  /* Premium Design Tokens */
+  --ifpr-mesh-1: rgba(35, 118, 49, 0.15);
+  --ifpr-mesh-2: rgba(21, 128, 61, 0.12);
+  --ifpr-mesh-3: rgba(22, 163, 74, 0.18);
+  
+  --ifpr-surface-glass: rgba(255, 255, 255, 0.72);
+  --ifpr-surface-glass-border: rgba(255, 255, 255, 0.4);
+  --ifpr-glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  
+  --ifpr-shadow-float: 0 12px 40px rgba(0, 0, 0, 0.12);
+  --ifpr-shadow-colored: 0 4px 14px rgba(35, 118, 49, 0.28);
 
   /* Schedule grid tokens */
   --text-link: #237631;
@@ -32,19 +42,18 @@ html {
   --shadow: #00000080;
   --slider-track: #0000007a;
 
-  /* Premium design tokens */
-  --ifpr-surface-glass: rgba(255, 255, 255, 0.75);
-  --ifpr-surface-glass-border: rgba(35, 118, 49, 0.12);
-  --ifpr-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --ifpr-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
-  --ifpr-shadow-colored: 0 4px 14px rgba(35, 118, 49, 0.28);
-
   --font-size-base: 16;
 }
 
 /* ── Dark Theme Variables ─────────────────── */
 [data-theme="dark"] {
+  --ifpr-mesh-1: rgba(50, 171, 76, 0.08);
+  --ifpr-mesh-2: rgba(35, 118, 49, 0.05);
+  --ifpr-mesh-3: rgba(39, 136, 57, 0.1);
 
+  --ifpr-surface-glass: rgba(28, 30, 33, 0.72);
+  --ifpr-surface-glass-border: rgba(255, 255, 255, 0.08);
+  --ifpr-glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
   --border-cell: #1c1e21;
   --border-grid: #3b4042;
@@ -53,9 +62,20 @@ html {
   --text-cell: #d9d9d9;
   --text-cell-light: #d9d9d9;
 
-  --ifpr-surface-glass: rgba(30, 34, 36, 0.8);
-  --ifpr-surface-glass-border: rgba(50, 171, 76, 0.18);
   --ifpr-shadow-colored: 0 4px 14px rgba(50, 171, 76, 0.18);
+}
+
+/* ── Global Animations ────────────────────── */
+@keyframes meshMove {
+  0% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(2%, 4%) scale(1.05); }
+  66% { transform: translate(-1%, 2%) scale(0.98); }
+  100% { transform: translate(0, 0) scale(1); }
+}
+
+@keyframes fadeInPremium {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* ── Base Body ────────────────────────────── */

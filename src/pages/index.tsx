@@ -16,10 +16,26 @@ import styles from './index.module.css'
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+    <header className={clsx('hero', styles.heroBanner)}>
+      {/* Mesh Gradient Background Canvas */}
+      <div className={styles.heroCanvas}>
+        <div className={styles.meshBlob}></div>
+        <div className={styles.meshBlob}></div>
+        <div className={styles.meshBlob}></div>
+      </div>
+
+      <div className={clsx('container', styles.heroContainer)}>
+        <div className={styles.heroContent}>
+          <h1 className="hero__title">{siteConfig.title}</h1>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+        </div>
+      </div>
+
+      {/* Organic Wave Divider */}
+      <div className={styles.waveDivider}>
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C57.23,115.32,127.15,116,183.13,103.42,232,92.35,268.45,71,321.39,56.44Z" fill="currentColor"></path>
+        </svg>
       </div>
     </header>
   )

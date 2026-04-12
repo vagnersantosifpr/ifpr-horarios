@@ -30,7 +30,7 @@
   
   margin-bottom: 2rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  animation: fadeInPremium 0.8s ease-out both span;
+  animation: fadeInPremium 0.8s ease-out both;
 }
 
 /* Delay for staggered entrance */

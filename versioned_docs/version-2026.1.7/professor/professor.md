@@ -52,6 +52,7 @@ sidebar_position: 1
 - [Jair Fajardo Junior - jair.junior@ifpr.edu.br](professor/jair_fajardo_junior)
 - [Juliano da Rocha Queiroz - juliano.queiroz@ifpr.edu.br](professor/juliano_da_rocha_queiroz)
 - [Wylliam Salviano Gongora - wylliam.gongora@ifpr.edu.br](professor/wylliam_salviano_gongora)
+- [SAMIR EL HALABI](professor/samir_el_halabi)
 
 ## Engenharia de Software
 - [Caroline Domingues Porto do Nascimento Barbieri - caroline.barbieri@ifpr.edu.br](professor/caroline_domingues_porto_do_nascimento_barbieri)

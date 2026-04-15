@@ -11,3 +11,4 @@ sidebar_position: 1
 - [Jair Fajardo Junior](jair_fajardo_junior)
 - [Juliano da Rocha Queiroz](juliano_da_rocha_queiroz)
 - [Wylliam Salviano Gongora](wylliam_salviano_gongora)
+- [SAMIR EL HALABI](samir_el_halabi)

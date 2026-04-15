@@ -8,7 +8,7 @@ sidebar_position: 1
 - [Daiane Cristina da Silva - daiane.cristina@ifpr.edu.br](professor/daiane_cristina_da_silva)
 - [Haroldo Yutaka Misunaga - haroldo.misunaga@ifpr.edu.br](professor/haroldo_yutaka_misunaga)
 - [Leocadia Candido da Silva - leocadia.silva@ifpr.edu.br](professor/leocadia_candido_da_silva)
-- [Lechan Colares Santos - lechan.santos@ifpr.edu.br](professor/lechan_colares_santos)
+- [Diego Padovan Vieira](professor/diego_padovan_vieira)
 
 ## Agronomia
 - [Diego Armando Amaro da Silva - diego.silva@ifpr.edu.br](professor/diego_armando_amaro_da_silva)

@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.7 (20/04/2026)
 <p>
-  Versão com ajustes de devolução das disciplinas da Profa. Elizangela de Matemática (Doc. SEI 9999999) 
+  Versão com mudanças de horário e de titularidade de disciplinas de Administração, Elétrica, Mecânica e Automação (Vários Doc. SEI) 
 </p>
 
 

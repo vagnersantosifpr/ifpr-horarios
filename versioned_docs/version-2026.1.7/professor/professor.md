@@ -116,11 +116,11 @@ sidebar_position: 1
 - [Katia Cristiane Kobus Novaes - katia.novaes@ifpr.edu.br](professor/katia_cristiane_kobus_novaes)
 - [Patricia Denicolo David Prati - patricia.prati@ifpr.edu.br](professor/patricia_denicolo_david_prati)
 
-
 ## Química
 - [Antonio Cesar Godoy - antonio.godoy@ifpr.edu.br](professor/antonio_cesar_godoy)
 - [Cosme Oliveira da Silva - cosme.silva@ifpr.edu.br](professor/cosme_oliveira_da_silva)
 - [Deysiane Lima Salvador - prof.deysianesalvador@gmail.com](professor/deysiane_lima_salvador)
+- [Marcela Marta Lazaretti Tormena](professor/marcela_marta_lazaretti_tormena)
 - [Sabrina Kerkhoff - sabrina.kerkhoff@ifpr.edu.br](professor/sabrina_kerkhoff)
 
 ## Secretariado Executivo

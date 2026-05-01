@@ -20,7 +20,6 @@ sidebar_position: 1
 - [Beatriz de Souza Gonçalves Proença - beatriz.proenca@ifpr.edu.br](professor/beatriz_de_souza_goncalves_proenca)
 
 ## Atendimento Educacional Especializado
-
 - [Paula Fabiane de Souza - paula.souza@ifpr.edu.br](professor/paula_fabiane_de_souza)
 
 ## Artes
@@ -74,7 +73,6 @@ sidebar_position: 1
 - [Renato Lada Guerreiro - renato.guerreiro@ifpr.edu.br](professor/renato_lada_guerreiro)
 
 ## Gestão
-
 - [Alexandre José Schumacher - alexandre.schumacher@ifpr.edu.br](professor/alexandre_jose_schumacher)
 
 ## História

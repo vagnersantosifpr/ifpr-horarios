@@ -127,6 +127,7 @@ sidebar_position: 1
 ## Sociologia
 - [Everaldo Lorensetti - everaldo.lorensetti@ifpr.edu.br](professor/everaldo_lorensetti)
 - [Olavo Henrique Vieira Veiga - olavo.veiga@ifpr.edu.br](professor/olavo_henrique_vieira_veiga)
+- [Adiel Felipe Felisberto da Silva](professor/adiel_felipe_felisberto_da_silva)
 
 ## Veterinária
 - [Marcos Rogerio Oliveira - marcos.rogerio@ifpr.edu.br](professor/marcos_rogerio_oliveira)

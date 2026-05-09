@@ -9,7 +9,7 @@ sidebar_position: 1
 </p>
 
 
-### Horários IFPR Assis Chateaubriand - Versão 2026.1.7 (20/04/2026)
+### Horários IFPR Assis Chateaubriand - Versão 2026.1.8 (11/05/2026)
 <p>
   Versão com mudanças de horário e de titularidade de disciplinas de Administração, Elétrica, Mecânica e Automação (Vários Doc. SEI) 
 </p>

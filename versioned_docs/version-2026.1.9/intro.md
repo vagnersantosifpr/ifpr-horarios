@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.9 (25/05/2026)
 <p>
-  Versão com mudanças de horário e de titularidade de disciplinas de Informática (4206169 e 4200241) 
+  Versão com o plano de contingência da área de informatica para suprir a saída do Prof. Álvaro (4206169 e 4200241) 
 </p>
 
 

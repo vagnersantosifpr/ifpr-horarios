@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.1.9 (25/05/2026)
 <p>
-  Versão com mudanças de horário e de titularidade de disciplinas de Administração, Elétrica, Mecânica e Automação (Vários Doc. SEI) 
+  Versão com mudanças de horário e de titularidade de disciplinas de Informática (4206169 e 4200241) 
 </p>
 
 
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 | Versão                              |   Início   |    Fim     |    Doc. SEI     |
 | ----------------------------------- | :--------: | :--------: | :-------------: |
-| 2026.1.v9                           | 25/05/2026 |   Atual    |     Álvaro      |
+| 2026.1.v9                           | 25/05/2026 |   Atual    |    4206169 e 4200241      |
 | 2026.1.v8                           | 11/05/2026 | 25/05/2026 |    4175741      |
 | 2026.1.v7                           | 20/04/2026 | 10/05/2026 |    4158934, 4159563 e 4164514      |
 | 2026.1.v6                           | 13/04/2026 | 19/04/2026 |    3864614      |

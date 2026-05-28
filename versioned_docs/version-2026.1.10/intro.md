@@ -5,13 +5,13 @@ sidebar_position: 1
 # Home
 
 <p>
-  Seja bem-vindo ao sistema de publicação da grade de horários do Instituto Federal do Paraná - Campus Assis Chateaubriand. 
+  Seja bem-vindo a grade de horários do Instituto Federal do Paraná - Campus Assis Chateaubriand. 
 </p>
 
 
-### Horários IFPR Assis Chateaubriand - Versão 2026.1.9 (25/05/2026)
+### Horários IFPR Assis Chateaubriand - Versão 2026.1.10 (01/06/2026)
 <p>
-  Versão com o plano de contingência da área de informatica para suprir a saída do Prof. Álvaro (4206169 e 4200241) 
+  Versão com a permuta na turma COM2026 (4217810) 
 </p>
 
 
@@ -24,7 +24,8 @@ sidebar_position: 1
 
 | Versão                              |   Início   |    Fim     |    Doc. SEI     |
 | ----------------------------------- | :--------: | :--------: | :-------------: |
-| 2026.1.v9                           | 25/05/2026 |   Atual    |    4206169 e 4200241      |
+| 2026.1.v10                          | 01/06/2026 |   Atual    |    4217810      |
+| 2026.1.v9                           | 25/05/2026 | 31/05/2026 |    4206169 e 4200241      |
 | 2026.1.v8                           | 11/05/2026 | 25/05/2026 |    4175741      |
 | 2026.1.v7                           | 20/04/2026 | 10/05/2026 |    4158934, 4159563 e 4164514      |
 | 2026.1.v6                           | 13/04/2026 | 19/04/2026 |    3864614      |

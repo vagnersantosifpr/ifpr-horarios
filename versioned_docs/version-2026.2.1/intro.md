@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.2.1 (09/07/2026)
 <p>
-  Versão com alocação dos docentes e as disciplinas do Noturno - Semestral 2026.2 (Doc. SEI 4218176) 
+  Versão com alocação dos docentes e as disciplinas do Noturno - Semestral 2026.2 (Doc. SEI 4218176 e 4228212) 
 </p>
 
 
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 | Versão                              |   Início   |    Fim     |    Doc. SEI     |
 | ----------------------------------- | :--------: | :--------: | :-------------: |
-| 2026.2.v1                           | 09/07/2026 |   Atual    |    4218176    |
+| 2026.2.v1                           | 09/07/2026 |   Atual    |    4218176 e 4228212   |
 | 2026.1.v10                          | 01/06/2026 | 08/07/2026 |    4217810      |
 | 2026.1.v9                           | 25/05/2026 | 31/05/2026 |    4206169 e 4200241      |
 | 2026.1.v8                           | 11/05/2026 | 25/05/2026 |    4175741      |

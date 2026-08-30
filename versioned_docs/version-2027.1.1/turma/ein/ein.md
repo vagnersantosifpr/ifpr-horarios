@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # EIN - Eletromecânica
 
-- [Ein 2023](ein2023)
 - [Ein 2024](ein2024)
 - [Ein 2025](ein2025)
 
@@ -16,6 +15,5 @@ sidebar_position: 1
 
 
 # Acessar horário de atendimento ao aluno
-- [Ein 2023 - AA](ein2023-aa)
 - [Ein 2024 - AA](ein2024-aa)
 - [Ein 2025 - AA](ein2025-aa)

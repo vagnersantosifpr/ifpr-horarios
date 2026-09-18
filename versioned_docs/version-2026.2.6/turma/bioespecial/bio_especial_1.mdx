@@ -1,0 +1,194 @@
+---
+slug: /turma/bio_especial_1
+sidebar_label: BIO_ESPECIAL_1
+---
+import { Grid } from "@site/src/components/Grid";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+export const data = {
+  "title": "BIO_ESPECIAL_1",
+  "base": "BIOESPECIAL",
+  "weekClasses": [
+    {
+      "dayName": "Segunda-Feira",
+      "dayClasses": [
+        {
+          "subject": "ORIGEM DA VIDA E EVOLUÇÃO",
+          "size": 2,
+          "teachers": [
+            "Eliana Peliçon Pereira Figueira"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Terça-Feira",
+      "dayClasses": [
+        {
+          "subject": "TEORIA E PRÁTICA PARA O ENSINO DE CIÊNCIAS E BIOLOGIA",
+          "size": 3,
+          "teachers": [
+            "Karina Dias Espartosa"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quarta-Feira",
+      "dayClasses": [
+        {
+          "subject": "GENÉTICA BÁSICA E HUMANA",
+          "size": 4,
+          "teachers": [
+            "Leandro Luiz Borges"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Quinta-Feira",
+      "dayClasses": [
+        {
+          "subject": "QUÍMICA ORGÂNICA",
+          "size": 2,
+          "teachers": [
+            "Cosme Oliveira da Silva"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "dayName": "Sexta-Feira",
+      "dayClasses": [
+        {
+          "subject": "ESTÁGIO CURRICULAR SUPERVISIONADO EM BIOLOGIA I",
+          "size": 2,
+          "teachers": [
+            "Karina Dias Espartosa"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "19:00 - 19:50",
+          "color": ""
+        },
+        {
+          "subject": "ESTÁGIO CURRICULAR SUPERVISIONADO EM BIOLOGIA II",
+          "size": 2,
+          "teachers": [
+            "Karina Dias Espartosa"
+          ],
+          "classroom": "sala_8-2",
+          "students": [
+            "BIO_ESPECIAL_1"
+          ],
+          "time": "21:00 - 21:50",
+          "color": ""
+        }
+      ]
+    }
+  ],
+  "time": [
+    {
+      "time": "07:30 - 08:20",
+      "size": 50
+    },
+    {
+      "time": "08:20 - 09:10",
+      "size": 50
+    },
+    {
+      "time": "09:25 - 10:15",
+      "size": 50
+    },
+    {
+      "time": "10:15 - 11:05",
+      "size": 50
+    },
+    {
+      "time": "11:05 - 11:55",
+      "size": 50
+    },
+    {
+      "time": "13:10 - 14:00",
+      "size": 50
+    },
+    {
+      "time": "14:00 - 14:50",
+      "size": 50
+    },
+    {
+      "time": "15:05 - 15:55",
+      "size": 50
+    },
+    {
+      "time": "15:55 - 16:45",
+      "size": 50
+    },
+    {
+      "time": "16:45 - 17:35",
+      "size": 50
+    },
+    {
+      "time": "17:35 - 19:00",
+      "size": 50
+    },
+    {
+      "time": "19:00 - 19:50",
+      "size": 50
+    },
+    {
+      "time": "19:50 - 20:40",
+      "size": 50
+    },
+    {
+      "time": "21:00 - 21:50",
+      "size": 50
+    },
+    {
+      "time": "21:50 - 22:40",
+      "size": 50
+    }
+  ]
+}
+
+# BIO_ESPECIAL_1
+
+<div>
+  {
+    <BrowserOnly>
+      {() => (
+        <Grid
+          title={data.title}
+          weekClasses={data.weekClasses}
+          time={data.time}
+        />
+      )}
+    </BrowserOnly>
+  }
+</div>

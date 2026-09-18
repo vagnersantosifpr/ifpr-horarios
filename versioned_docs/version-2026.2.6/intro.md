@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ### Horários IFPR Assis Chateaubriand - Versão 2026.2.6 (21/09/2026)
 <p>
-  Versão com ajustes de mudança de titularidade e permuta (Doc. SEI 9999999) 
+  Versão com ajustes de mudança de titularidade e permuta (Docs SEI 4396133 e 4396136) 
 </p>
 
 
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 | Versão                              |   Início   |    Fim     |    Doc. SEI     |
 | ----------------------------------- | :--------: | :--------: | :-------------: |
-| 2026.2.v6                           | 21/09/2026 |   Atual    |    9999999   |
+| 2026.2.v6                           | 21/09/2026 |   Atual    |    4396133 e 4396136   |
 | 2026.2.v5                           | 14/09/2026 | 20/09/2026 |    4369058,4380731,4380733,4380736,4380750,4380765,4381380 e 4382234   |
 | 2026.2.v4                           | 07/09/2026 | 13/09/2026  |   IIW Toledo   |
 | 2026.2.v3                           | 24/08/2026 | 06/09/2026 |    4341851, 4349310, 4349311, 4349312 e 4349313   |

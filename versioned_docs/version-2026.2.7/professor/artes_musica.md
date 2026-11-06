@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Artes
+# Artes/ Música
 
 
 ## Docente(s)

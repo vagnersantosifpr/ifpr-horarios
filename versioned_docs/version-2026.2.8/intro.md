@@ -9,9 +9,9 @@ sidebar_position: 1
 </p>
 
 
-### Horários IFPR Assis Chateaubriand - Versão 2026.2.8 (09/11/2026)
+### Horários IFPR Assis Chateaubriand - Versão 2026.2.8 (16/11/2026)
 <p>
-  Versão com ajustes de mudança de titularidade e trocas de horários (Docs SEI 9999999999) 
+  Versão com ajustes de mudança de titularidade e trocas de horários (Docs SEI 4485535) 
 </p>
 
 
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 | Versão                              |   Início   |    Fim     |    Doc. SEI     |
 | ----------------------------------- | :--------: | :--------: | :-------------: |
-| 2026.2.v8                           | 09/11/2026 |   Atual    |    9999999999   |
+| 2026.2.v8                           | 16/11/2026 |   Atual    |    4485535   |
 | 2026.2.v7                           | 19/10/2026 | 08/11/2026 |    4438810   |
 | 2026.2.v6                           | 21/09/2026 | 18/10/2026 |    4396133 e 4396136   |
 | 2026.2.v5                           | 14/09/2026 | 20/09/2026 |    4369058,4380731,4380733,4380736,4380750,4380765,4381380 e 4382234   |

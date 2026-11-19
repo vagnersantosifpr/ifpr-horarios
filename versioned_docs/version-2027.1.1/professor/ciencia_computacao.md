@@ -1,0 +1,12 @@
+---
+sidebar_position: 1
+---
+
+# Ciência da Computação
+
+
+## Docente(s)
+
+- [Douglas Barbosa Sousa](douglas_barbosa_sousa)
+- [Luis Henrique Manosso Von Mecheln](luis_henrique_manosso_von_mecheln)
+- [Rafael Gil Ferques](rafael_gil_ferques)
